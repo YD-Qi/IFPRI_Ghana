@@ -443,12 +443,16 @@ table `var', stubwidth(40) left
 }
 
 foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{
+table `var', by(region) stubwidth(40) left
+}
+
+foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{
 table `var' if pond==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
 }
 foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{
-table `var'if cage==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+table `var' if cage==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
 }
-*table xx: QUALITY PERCEPTION
+*table xx: FEED QUALITY PERCEPTION
 
 *feed and region
 tab region e39e, row nofreq
@@ -466,6 +470,22 @@ tab region e39a, row nofreq
 tab e36a e39a, row nofreq
 tab e2i e39a, row nofreq
 table e2i, stubwidth(40) left
+
+* table xx: FEED AVAILABILITY PERCEPTION
+tab region e40e_i
+tab region e40e_i, row nofreq
+*feed and its type
+tab e36e e40e_i
+tab e36e e40e_i, row nofreq
+
+
+* table xx: FEED affordability PERCEPTION
+tab region e41e_i
+tab region e41e_i, row nofreq
+*feed and its type
+tab e36e e41e_i
+tab e36e e41e_i, row nofreq
+
 
 
 foreach var of varlist e39a e39n e39o e39c e39d e39c_i e39_i e39e e39f e39e_i e39f_i e39g e39h e39k e39p e39q e39i e39zi e39j e39m e39l{
@@ -632,24 +652,25 @@ use "$clean/06_FINGERLING_production_hfc_check.dta",clear
 rename (a1 a6 b3) (region name_enumerator name_respondent)
 
 *size of fingerling produced
-tabstat c20, by(c18_name) s(n mean median sd min max)
+bys c18_name: tabstat c20, by(region) s(n mean median sd min max)
 
 * hatchery production (what is the unit, number?)
-tabstat c21a, by(c18_name) s(n mean median sd min max)
+bys c18_name: tabstat c21a, by(region) s(n mean median sd min max)
 
 *survival rate by number and percent, note c27i is missing for these reported 999 or 0 on c27
-tabstat c27 if c27i==1, by(c18_name) s(n mean median sd min max)
-tabstat c27 if c27i==2, by(c18_name) s(n mean median sd min max)
+bys c18_name: tabstat c27 if c27i==1, by(region) s(n mean median sd min max)
+bys c18_name: tabstat c27 if c27i==2, by(region) s(n mean median sd min max)
+
 list region name_enumerator HHID name_respondent c16 c27 c27i if c27!=.&c27i==.
 
 * growth rate (days took from 2g to 5g)
 *ERROR 6 report 999
-tabstat c26 if c26!=999, by(c18_name) s(n mean median sd min max)
+bys c18_name: tabstat c26 if c26!=999, by(region) s(n mean median sd min max)
 
 list region name_enumerator name_respondent c16 c26 if c26==999
 
 * fingerling production increasing, decreasing?
-bys c18_name: tab c22
+bys c18_name: tab c22 by(region)
 
 
 *POND characteristics

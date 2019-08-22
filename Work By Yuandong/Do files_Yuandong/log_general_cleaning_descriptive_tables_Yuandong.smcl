@@ -24190,4 +24190,3685 @@ Summary for variables: c20
  {res}        7  3.428571         2  3.207135         1        10
 {txt}{hline 10}{c BT}{hline 60}
 
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c20, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        5       5.6         5  2.607681         3        10
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  6.666667         5  2.886751         5        10
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        4     4.375      3.75      2.75         2         8
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1        10        10         .        10        10
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       13  5.807692         5  2.810238         2        10
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        7  5.285714         5  2.360387         2        10
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  4.333333         5  1.154701         3         5
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        7  4.214286         5  1.822479         2         7
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        6  2.333333         2  1.505545         1         5
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       23  4.065217         5  2.090587         1        10
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tab c22 by(region)
+
+{txt}{hline}
+-> c18_name = 
+{err}factor variables and time-series operators not allowed
+{txt}{search r(101), local:r(101);}
+
+end of do-file
+
+{search r(101), local:r(101);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tab c22 by(region)
+
+{txt}{hline}
+-> c18_name = 
+{err}factor variables and time-series operators not allowed
+{txt}{search r(101), local:r(101);}
+
+end of do-file
+
+{search r(101), local:r(101);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c21a, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        5     55400     60000  37560.62         0    100000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  420666.7     50000  675189.8     12000   1200000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        4  155125.4     10250  296729.2       1.5    600000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1         0         0         .         0         0
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       13  166115.5     42000  349440.8         0   1200000
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        7     82857     32000  142803.5         0    400000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  811666.7     25000   1375557     10000   2400000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        7  503071.3     10000   1108801         0   3000000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        6   1861500    324000   3992942       999  1.00e+07
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       23  769804.2     32000   2152785         0  1.00e+07
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. min max)
+{err}command {bf}min{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+end of do-file
+
+{search r(199), local:r(199);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c27 if c27i==1, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+no observations
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        1     80000     80000         .     80000     80000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        1      8000      8000         .      8000      8000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        3    440000    300000  504777.2     20000   1000000
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        5    281600     80000  418440.9      8000   1000000
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+no observations
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:BA} {...}
+{c |}{...}
+ {res}        1      6000      6000         .      6000      6000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        2    164000    164000    192333     28000    300000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1    300000    300000         .    300000    300000
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        4    158500    164000  163636.8      6000    300000
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. bys c18_name: tabstat c27 if c27i==2, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+no observations
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        1        75        75         .        75        75
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        2        65        65   21.2132        50        80
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        1        90        90         .        90        90
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        4     73.75      77.5  17.01715        50        90
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+no observations
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        2      67.5      67.5  24.74874        50        85
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        2        75        75   21.2132        60        90
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        1        80        80         .        80        80
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        4        80        80  8.164966        70        90
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        9  76.11111        80  13.64225        50        90
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c20, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        5       5.6         5  2.607681         3        10
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  6.666667         5  2.886751         5        10
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        4     4.375      3.75      2.75         2         8
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1        10        10         .        10        10
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       13  5.807692         5  2.810238         2        10
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c20
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        7  5.285714         5  2.360387         2        10
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  4.333333         5  1.154701         3         5
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        7  4.214286         5  1.822479         2         7
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        6  2.333333         2  1.505545         1         5
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       23  4.065217         5  2.090587         1        10
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c21a, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        5     55400     60000  37560.62         0    100000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  420666.7     50000  675189.8     12000   1200000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        4  155125.4     10250  296729.2       1.5    600000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1         0         0         .         0         0
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       13  166115.5     42000  349440.8         0   1200000
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c21a
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        7     82857     32000  142803.5         0    400000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  811666.7     25000   1375557     10000   2400000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        7  503071.3     10000   1108801         0   3000000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        6   1861500    324000   3992942       999  1.00e+07
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       23  769804.2     32000   2152785         0  1.00e+07
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c27 if c27i==1, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+no observations
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        1     80000     80000         .     80000     80000
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        1      8000      8000         .      8000      8000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        3    440000    300000  504777.2     20000   1000000
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        5    281600     80000  418440.9      8000   1000000
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+no observations
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:BA} {...}
+{c |}{...}
+ {res}        1      6000      6000         .      6000      6000
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        2    164000    164000    192333     28000    300000
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1    300000    300000         .    300000    300000
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        4    158500    164000  163636.8      6000    300000
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c27 if c27i==2, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+no observations
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        1        75        75         .        75        75
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        2        65        65   21.2132        50        80
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        1        90        90         .        90        90
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        4     73.75      77.5  17.01715        50        90
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+no observations
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c27
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        2      67.5      67.5  24.74874        50        85
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        2        75        75   21.2132        60        90
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        1        80        80         .        80        80
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        4        80        80  8.164966        70        90
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        9  76.11111        80  13.64225        50        90
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. bys c18_name: tabstat c26 if c26!=999, by(region) s(n mean median sd min max)
+
+{txt}{hline}
+-> c18_name = 
+
+Summary for variables: c26
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Catfish
+
+Summary for variables: c26
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        4     19.25        21       3.5        14        21
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  25.33333        28  16.16581         8        40
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        3  17.33333        14  11.37248         8        30
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        1        14        14         .        14        14
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       11  19.90909        21  9.812793         8        40
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Heterotis
+
+Summary for variables: c26
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}        0         .         .         .         .         .
+{txt}{hline 7}{c BT}{hline 60}
+
+{hline}
+-> c18_name = Tilapia
+
+Summary for variables: c26
+{col 6}by categories of: region (What is the location: Region)
+
+{ralign 6:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 7}{c +}{hline 60}
+{ralign 6:AS} {...}
+{c |}{...}
+ {res}        5      22.8        21  4.024922        21        30
+{txt}{ralign 6:BA} {...}
+{c |}{...}
+ {res}        3  30.66667        31  9.504385        21        40
+{txt}{ralign 6:ER} {...}
+{c |}{...}
+ {res}        6      20.5      13.5  22.27779         1        60
+{txt}{ralign 6:VR} {...}
+{c |}{...}
+ {res}        5      28.8        30  17.18139        14        56
+{txt}{hline 7}{c +}{hline 60}
+{ralign 6:Total} {...}
+{c |}{...}
+ {res}       19  24.89474        21  15.31482         1        60
+{txt}{hline 7}{c BT}{hline 60}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. use "$newData/00_HOUSEHOLD_main_hfc_check_YQ.dta", clear
+{txt}
+{com}. gen pond=culture==1
+{txt}
+{com}. replace pond=1 if culture==3
+{txt}(4 real changes made)
+
+{com}. gen cage=culture==2
+{txt}
+{com}. replace cage=1 if culture==3
+{txt}(4 real changes made)
+
+{com}. 
+. keep if active==1
+{txt}(126 observations deleted)
+
+{com}. * table XX: DEMOGRAPHIC INFO OF RESPONDENTS, OWNERS, MANAGERS
+. *role
+. tab region role_respondent, row nofreq
+
+            {txt}{c |}  Main respondent's role in the
+            {c |}               farm
+     region {c |} Owner/inv  Manager/C  Other (sp {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     70.54      29.46       0.00 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     90.58       9.42       0.00 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     70.00      29.29       0.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     66.67      30.56       2.78 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     78.08      21.50       0.42 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *male
+. tab region male_respondent, row nofreq
+
+            {txt}{c |}   What is the main
+            {c |} respondent's gender?
+     region {c |}    Female       Male {c |}     Total
+{hline 12}{c +}{hline 22}{c +}{hline 10}
+    Ashanti {c |}{res}      7.14      92.86 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      8.38      91.62 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      2.86      97.14 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     11.11      88.89 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 22}{c +}{hline 10}
+      Total {c |}{res}      6.68      93.32 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *age
+. tabstat age_respondent, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: age_respondent
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}      112  46.99107        48  12.24266        19        76
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      190      48.2        49  13.74184        20        85
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      140  44.45714        43  12.22179        22        86
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       36  50.69444        50  13.42454        27        74
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      478  47.00837        47  13.03663        19        86
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. *marital
+. tab region b10, row nofreq
+
+            {txt}{c |}                   What is your marital status?
+     region {c |} Married/c     Single  Separated   Divorced  Co-habita  Widowed/w {c |}     Total
+{hline 12}{c +}{hline 66}{c +}{hline 10}
+    Ashanti {c |}{res}     77.68      14.29       0.00       3.57       0.00       4.46 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     82.72      13.61       0.00       0.52       0.52       2.62 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     83.57      10.00       1.43       0.00       4.29       0.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     77.78      13.89       0.00       2.78       2.78       2.78 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 66}{c +}{hline 10}
+      Total {c |}{res}     81.42      12.73       0.42       1.25       1.67       2.51 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. bys region: tab b10
+
+{txt}{hline}
+-> region = Ashanti
+
+ What is your marital status? {c |}      Freq.     Percent        Cum.
+{hline 30}{c +}{hline 35}
+     Married/consensual union {c |}{res}         87       77.68       77.68
+{txt}                       Single {c |}{res}         16       14.29       91.96
+{txt}                     Divorced {c |}{res}          4        3.57       95.54
+{txt}              Widowed/widower {c |}{res}          5        4.46      100.00
+{txt}{hline 30}{c +}{hline 35}
+                        Total {c |}{res}        112      100.00
+
+{txt}{hline}
+-> region = Brong-Ahafo
+
+ What is your marital status? {c |}      Freq.     Percent        Cum.
+{hline 30}{c +}{hline 35}
+     Married/consensual union {c |}{res}        158       82.72       82.72
+{txt}                       Single {c |}{res}         26       13.61       96.34
+{txt}                     Divorced {c |}{res}          1        0.52       96.86
+{txt}Co-habitation/living together {c |}{res}          1        0.52       97.38
+{txt}              Widowed/widower {c |}{res}          5        2.62      100.00
+{txt}{hline 30}{c +}{hline 35}
+                        Total {c |}{res}        191      100.00
+
+{txt}{hline}
+-> region = Eastern
+
+ What is your marital status? {c |}      Freq.     Percent        Cum.
+{hline 30}{c +}{hline 35}
+     Married/consensual union {c |}{res}        117       83.57       83.57
+{txt}                       Single {c |}{res}         14       10.00       93.57
+{txt}                    Separated {c |}{res}          2        1.43       95.00
+{txt}Co-habitation/living together {c |}{res}          6        4.29       99.29
+{txt}              Widowed/widower {c |}{res}          1        0.71      100.00
+{txt}{hline 30}{c +}{hline 35}
+                        Total {c |}{res}        140      100.00
+
+{txt}{hline}
+-> region = Volta
+
+ What is your marital status? {c |}      Freq.     Percent        Cum.
+{hline 30}{c +}{hline 35}
+     Married/consensual union {c |}{res}         28       77.78       77.78
+{txt}                       Single {c |}{res}          5       13.89       91.67
+{txt}                     Divorced {c |}{res}          1        2.78       94.44
+{txt}Co-habitation/living together {c |}{res}          1        2.78       97.22
+{txt}              Widowed/widower {c |}{res}          1        2.78      100.00
+{txt}{hline 30}{c +}{hline 35}
+                        Total {c |}{res}         36      100.00
+
+{txt}
+{com}. 
+. * edu
+. tab region edu_respondent, row nofreq
+
+            {txt}{c |}     What is your (main respondent's) highest education level?
+     region {c |} No school  Primary s  Junior Se  Technical  Senior Se  Polytechn {c |}     Total
+{hline 12}{c +}{hline 66}{c +}{hline 10}
+    Ashanti {c |}{res}     10.71      11.61      21.43       3.57      17.86       9.82 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      5.24       6.81      30.89       8.38      16.23       5.76 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      5.00      15.00      37.14       5.00      18.57       4.29 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}      5.56       5.56      27.78       2.78       8.33       8.33 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 66}{c +}{hline 10}
+      Total {c |}{res}      6.47      10.23      30.27       5.85      16.70       6.47 {txt}{c |}{res}    100.00 
+
+
+            {txt}{c |} What is your (main respondent's)
+            {c |}     highest education level?
+     region {c |} Universit  Postgradu  Doctorate {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     16.96       7.14       0.89 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     21.47       4.71       0.52 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     12.86       2.14       0.00 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     38.89       2.78       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     19.21       4.38       0.42 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. * polygamous or monogamous
+. tab region b12, row nofreq
+
+            {txt}{c |}   Is your household
+            {c |}     polygamous or
+            {c |}      monogamous?
+     region {c |} Polygamou  Monogamou {c |}     Total
+{hline 12}{c +}{hline 22}{c +}{hline 10}
+    Ashanti {c |}{res}      1.15      98.85 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     15.82      84.18 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      3.42      96.58 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     10.71      89.29 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 22}{c +}{hline 10}
+      Total {c |}{res}      8.46      91.54 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *religion
+. tab region b14, row nofreq
+
+            {txt}{c |}                 What is your religion?
+     region {c |} Christian     Muslim  Tradition  Other (pl  Refuse to {c |}     Total
+{hline 12}{c +}{hline 55}{c +}{hline 10}
+    Ashanti {c |}{res}     91.07       8.93       0.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     90.58       8.38       0.52       0.52       0.00 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     97.14       0.71       1.43       0.00       0.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}    100.00       0.00       0.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 55}{c +}{hline 10}
+      Total {c |}{res}     93.32       5.64       0.63       0.21       0.21 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *distance
+. tabstat distance_respondent if distance_respondent<500, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: distance_respondent
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}       95  2.915232  .6666667  7.342252         0        57
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      181  2.156746         1  5.287571         0        54
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      136  2.734779  .2333333  10.83584         0        70
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       35   1.45321       .22  3.491454         0        20
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      447  2.438726        .5  7.700586         0        70
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. *OWNER's info summary
+. sum male_respondent age_respondent edu_respondent distance_respondent 
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+male_respo~t {c |}{res}        479    .9331942    .2499465          0          1
+{txt}age_respon~t {c |}{res}        478    47.00837    13.03663         19         86
+{txt}edu_respon~t {c |}{res}        479    4.367432    2.031824          1          9
+{txt}distance_r~t {c |}{res}        449    4.877751    37.45304          0        600
+{txt}
+{com}. sum male_owner age_owner edu_owner distance_owner 
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 2}male_owner {c |}{res}        479    .9227557    .2672577          0          1
+{txt}{space 3}age_owner {c |}{res}        477     53.7065    62.71948         20        999
+{txt}{space 3}edu_owner {c |}{res}        479    4.799582     2.13006          1          9
+{txt}distance_o~r {c |}{res}        436    9.858832    52.88456          0   620.7513
+{txt}
+{com}. sum male_manager age_manager edu_manager distance_manager
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+male_manager {c |}{res}        479    .9331942    .2499465          0          1
+{txt}{space 1}age_manager {c |}{res}        478     46.0795    13.10536         19         86
+{txt}{space 1}edu_manager {c |}{res}        479    4.294363     2.00496          1          9
+{txt}distance_m~r {c |}{res}        448    4.731661    37.46357          0        600
+{txt}
+{com}. *male
+. tab region male_owner, row nofreq
+
+            {txt}{c |}      male_owner
+     region {c |}         0          1 {c |}     Total
+{hline 12}{c +}{hline 22}{c +}{hline 10}
+    Ashanti {c |}{res}      7.14      92.86 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      9.42      90.58 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      5.71      94.29 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}      8.33      91.67 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 22}{c +}{hline 10}
+      Total {c |}{res}      7.72      92.28 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *age
+. tabstat age_owner if age_owner<100, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: age_owner
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}      112  52.05357        51  11.70573        29        99
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      189  49.59259        50  13.77008        20        85
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      138  47.31884        46  12.04371        26        86
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       36  52.41667        54   12.3898        34        76
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      475  49.72632        50  12.80925        20        99
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. * edu
+. tab region edu_owner, row nofreq
+
+            {txt}{c |}                             edu_owner
+     region {c |}         1          2          3          4          5          6 {c |}     Total
+{hline 12}{c +}{hline 66}{c +}{hline 10}
+    Ashanti {c |}{res}      8.93       6.25      18.75       2.68      14.29      11.61 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      5.76       6.28      30.89       8.38      15.18       6.81 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      5.00      10.00      27.14       3.57      17.86       3.57 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}      2.78       5.56      11.11       5.56      11.11       8.33 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 66}{c +}{hline 10}
+      Total {c |}{res}      6.05       7.31      25.47       5.43      15.45       7.10 {txt}{c |}{res}    100.00 
+
+
+            {txt}{c |}            edu_owner
+     region {c |}         7          8          9 {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     23.21      12.50       1.79 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     20.94       5.24       0.52 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     27.14       5.00       0.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     47.22       5.56       2.78 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     25.26       6.89       1.04 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. 
+. *distance
+. tabstat distance_owner if distance_owner<500, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: distance_owner
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}       89   6.68736      .999  16.50964         0      66.6
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      180  2.161565         1  5.289145         0        54
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      133  9.340205        .5  23.19885         0       120
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       31  7.433674        .6  18.38458         0      66.6
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      433  5.674245  .6666667  16.27098         0       120
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. * table 5 manager's info
+. *male
+. tab region male_manager, row nofreq
+
+            {txt}{c |}     male_manager
+     region {c |}         0          1 {c |}     Total
+{hline 12}{c +}{hline 22}{c +}{hline 10}
+    Ashanti {c |}{res}      7.14      92.86 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      8.38      91.62 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      2.86      97.14 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     11.11      88.89 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 22}{c +}{hline 10}
+      Total {c |}{res}      6.68      93.32 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *age
+. tabstat age_manager if age_manager<100, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: age_manager
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}      112  45.99107      47.5  12.66654        19        76
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      190  46.68421        46  13.92897        20        82
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      140  44.52143        43  12.13679        22        86
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       36  49.22222        48  13.31618        27        74
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      478   46.0795        45  13.10536        19        86
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. * edu
+. tab region edu_manager, row nofreq
+
+            {txt}{c |}                            edu_manager
+     region {c |}         1          2          3          4          5          6 {c |}     Total
+{hline 12}{c +}{hline 66}{c +}{hline 10}
+    Ashanti {c |}{res}     11.61      10.71      23.21       3.57      18.75       9.82 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}      5.76       7.33      31.94       7.33      17.80       5.76 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}      5.00      15.00      37.14       5.00      17.86       4.29 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}      5.56       5.56      30.56       2.78       5.56       8.33 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 66}{c +}{hline 10}
+      Total {c |}{res}      6.89      10.23      31.32       5.43      17.12       6.47 {txt}{c |}{res}    100.00 
+
+
+            {txt}{c |}           edu_manager
+     region {c |}         7          8          9 {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     15.18       6.25       0.89 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     20.42       3.66       0.00 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     13.57       2.14       0.00 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     38.89       2.78       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     18.58       3.76       0.21 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *distance
+. tabstat distance_manager if distance_manager<500, by(region) s(n mean median sd min max)
+
+{txt}Summary for variables: distance_manager
+{col 6}by categories of: region 
+
+{ralign 11:region} {...}
+{c |}         N      mean       p50        sd       min       max
+{hline 12}{c +}{hline 60}
+{ralign 11:Ashanti} {...}
+{c |}{...}
+ {res}       95  2.879497  .3333333  7.346513         0        57
+{txt}{ralign 11:Brong-Ahafo} {...}
+{c |}{...}
+ {res}      181  1.889095  .9320591  4.677274         0        54
+{txt}{ralign 11:Eastern} {...}
+{c |}{...}
+ {res}      136  2.734779  .2333333  10.83584         0        70
+{txt}{ralign 11:Volta} {...}
+{c |}{...}
+ {res}       34  .9522261  .3166667  1.342122         0         5
+{txt}{hline 12}{c +}{hline 60}
+{ralign 11:Total} {...}
+{c |}{...}
+ {res}      446  2.286511        .5  7.506032         0        70
+{txt}{hline 12}{c BT}{hline 60}
+
+{com}. 
+. *table age distribution
+. tab region age_respondent_range
+
+            {txt}{c |} RECODE of age_respondent (Age of
+            {c |}         main respondent)
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}        20         49         43 {txt}{c |}{res}       112 
+{txt}Brong-Ahafo {c |}{res}        40         73         77 {txt}{c |}{res}       190 
+{txt}    Eastern {c |}{res}        39         58         43 {txt}{c |}{res}       140 
+{txt}      Volta {c |}{res}         6         13         17 {txt}{c |}{res}        36 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}       105        193        180 {txt}{c |}{res}       478 
+
+{txt}
+{com}. tab region age_respondent_range, row nofreq
+
+            {txt}{c |} RECODE of age_respondent (Age of
+            {c |}         main respondent)
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     17.86      43.75      38.39 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     21.05      38.42      40.53 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     27.86      41.43      30.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     16.67      36.11      47.22 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     21.97      40.38      37.66 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. tab region age_owner_range
+
+            {txt}{c |}       RECODE of age_owner
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}         9         40         63 {txt}{c |}{res}       112 
+{txt}Brong-Ahafo {c |}{res}        33         71         86 {txt}{c |}{res}       190 
+{txt}    Eastern {c |}{res}        25         63         51 {txt}{c |}{res}       139 
+{txt}      Volta {c |}{res}         1         16         19 {txt}{c |}{res}        36 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}        68        190        219 {txt}{c |}{res}       477 
+
+{txt}
+{com}. tab region age_owner_range, row nofreq
+
+            {txt}{c |}       RECODE of age_owner
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}      8.04      35.71      56.25 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     17.37      37.37      45.26 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     17.99      45.32      36.69 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}      2.78      44.44      52.78 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     14.26      39.83      45.91 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. tab region age_manager_range
+
+            {txt}{c |}      RECODE of age_manager
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}        25         47         40 {txt}{c |}{res}       112 
+{txt}Brong-Ahafo {c |}{res}        50         69         71 {txt}{c |}{res}       190 
+{txt}    Eastern {c |}{res}        39         58         43 {txt}{c |}{res}       140 
+{txt}      Volta {c |}{res}         7         14         15 {txt}{c |}{res}        36 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}       121        188        169 {txt}{c |}{res}       478 
+
+{txt}
+{com}. tab region age_manager_range, row nofreq
+
+            {txt}{c |}      RECODE of age_manager
+     region {c |}     youth     midAge        Old {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     22.32      41.96      35.71 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     26.32      36.32      37.37 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     27.86      41.43      30.71 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     19.44      38.89      41.67 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     25.31      39.33      35.36 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. *table xx: PRACTICE CHANGED?
+. * species
+. tab d6ai 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+       fish {c |}
+   species? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        373       89.23       89.23
+{txt}        Yes {c |}{res}         41        9.81       99.04
+{txt}         NA {c |}{res}          4        0.96      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *fingerling
+. tab d6aii 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+fingerlings {c |}
+          ? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        348       83.25       83.25
+{txt}        Yes {c |}{res}         60       14.35       97.61
+{txt}         NA {c |}{res}         10        2.39      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *feed
+. tab d6aiii 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+      feed? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        351       83.97       83.97
+{txt}        Yes {c |}{res}         65       15.55       99.52
+{txt}         NA {c |}{res}          2        0.48      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *water management
+. tab d6aiv 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+      water {c |}
+   manageme {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        407       97.37       97.37
+{txt}        Yes {c |}{res}          5        1.20       98.56
+{txt}         NA {c |}{res}          6        1.44      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. * use of chemical
+. tab d6av 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+     use of {c |}
+    chemica {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        349       83.49       83.49
+{txt}        Yes {c |}{res}          3        0.72       84.21
+{txt}         NA {c |}{res}         66       15.79      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. * stocking rate
+. tab d6avi 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+   stocking {c |}
+      rate? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        309       73.92       73.92
+{txt}        Yes {c |}{res}        100       23.92       97.85
+{txt}         NA {c |}{res}          9        2.15      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. * location
+. tab d6avii
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+site/locati {c |}
+        on? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        394       94.26       94.26
+{txt}        Yes {c |}{res}         18        4.31       98.56
+{txt}         NA {c |}{res}          6        1.44      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. * dimension 
+. tab d6aviii 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+ dimensions {c |}
+        of  {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        400       95.69       95.69
+{txt}        Yes {c |}{res}         17        4.07       99.76
+{txt}         NA {c |}{res}          1        0.24      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *packaging
+. tab d6aix 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+  packaging {c |}
+       or t {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        391       93.54       93.54
+{txt}        Yes {c |}{res}         16        3.83       97.37
+{txt}         NA {c |}{res}         11        2.63      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *size of fingerling
+. tab d6ax 
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+    size of {c |}
+     finger {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        376       89.95       89.95
+{txt}        Yes {c |}{res}         29        6.94       96.89
+{txt}         NA {c |}{res}         13        3.11      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. *labor
+. tab d6axi
+
+    {txt}Did you {c |}
+     change {c |}
+   anything {c |}
+      (e.g. {c |}
+  source or {c |}
+  practice) {c |}
+       with {c |}
+ regards to {c |}
+    labour? {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}        355       84.93       84.93
+{txt}        Yes {c |}{res}         51       12.20       97.13
+{txt}         NA {c |}{res}         12        2.87      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        418      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var', by(region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+
+{txt}{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+999                                      {c |}          {res}1
+{txt}9999                                     {c |}           {res}
+{txt}A faster growing tilapia strain should b {c |}           {res}
+{txt}Add catfish if you have the means to pro {c |}           {res}
+{txt}Buying from the hatchery is the best     {c |}           {res}
+{txt}Choose the one closer to you             {c |}           {res}
+{txt}Choose thr readily available broodstock  {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}I think ARDEC do have the latest strain  {c |}           {res}
+{txt}I will recommend a farm starts with catf {c |}           {res}
+{txt}I will say the AKUSE source would grow f {c |}           {res}
+{txt}I would advice any new comer to buy from {c |}           {res}
+{txt}I would advice one buys from a fingerlin {c |}           {res}
+{txt}I would advice outgrowers to have their  {c |}           {res}
+{txt}I would recommend everyone should buy Fi {c |}           {res}
+{txt}It is less costly as compared to tilapia {c |}          {res}1
+{txt}It's best to try your hands on anything  {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Its best to have your own stocking pond  {c |}           {res}
+{txt}Its better to rear both tilapiaand catfi {c |}           {res}
+{txt}Keep doing tilapia, better to do catfish {c |}           {res}
+{txt}No better change in production           {c |}           {res}
+{txt}Pac breed is good                        {c |}           {res}
+{txt}Start and know your capabilities         {c |}           {res}
+{txt}Start with those who can spawn           {c |}          {res}1
+{txt}Taking from far u incur transport cost a {c |}           {res}
+{txt}The breeding increases                   {c |}           {res}
+{txt}The hatcheries should try to do replacem {c |}           {res}
+{txt}Tilapia production is the best           {c |}           {res}
+{txt}Trusted sources                          {c |}           {res}
+{txt}When the fishes keep long they cant prod {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}A faster growing tilapia strain should b {c |}           {res}
+{txt}Add catfish if you have the means to pro {c |}          {res}1
+{txt}Buying from the hatchery is the best     {c |}          {res}1
+{txt}Choose the one closer to you             {c |}          {res}1
+{txt}Choose thr readily available broodstock  {c |}          {res}1
+{txt}Good                                     {c |}          {res}1
+{txt}I think ARDEC do have the latest strain  {c |}           {res}
+{txt}I will recommend a farm starts with catf {c |}           {res}
+{txt}I will say the AKUSE source would grow f {c |}           {res}
+{txt}I would advice any new comer to buy from {c |}           {res}
+{txt}I would advice one buys from a fingerlin {c |}           {res}
+{txt}I would advice outgrowers to have their  {c |}           {res}
+{txt}I would recommend everyone should buy Fi {c |}           {res}
+{txt}It is less costly as compared to tilapia {c |}           {res}
+{txt}It's best to try your hands on anything  {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Its best to have your own stocking pond  {c |}          {res}1
+{txt}Its better to rear both tilapiaand catfi {c |}          {res}1
+{txt}Keep doing tilapia, better to do catfish {c |}          {res}1
+{txt}No better change in production           {c |}          {res}1
+{txt}Pac breed is good                        {c |}          {res}1
+{txt}Start and know your capabilities         {c |}          {res}1
+{txt}Start with those who can spawn           {c |}           {res}
+{txt}Taking from far u incur transport cost a {c |}          {res}1
+{txt}The breeding increases                   {c |}           {res}
+{txt}The hatcheries should try to do replacem {c |}           {res}
+{txt}Tilapia production is the best           {c |}           {res}
+{txt}Trusted sources                          {c |}          {res}1
+{txt}When the fishes keep long they cant prod {c |}          {res}1
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}           {res}
+{txt}A faster growing tilapia strain should b {c |}           {res}
+{txt}Add catfish if you have the means to pro {c |}           {res}
+{txt}Buying from the hatchery is the best     {c |}           {res}
+{txt}Choose the one closer to you             {c |}           {res}
+{txt}Choose thr readily available broodstock  {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}I think ARDEC do have the latest strain  {c |}           {res}
+{txt}I will recommend a farm starts with catf {c |}          {res}1
+{txt}I will say the AKUSE source would grow f {c |}           {res}
+{txt}I would advice any new comer to buy from {c |}          {res}1
+{txt}I would advice one buys from a fingerlin {c |}          {res}1
+{txt}I would advice outgrowers to have their  {c |}           {res}
+{txt}I would recommend everyone should buy Fi {c |}          {res}1
+{txt}It is less costly as compared to tilapia {c |}           {res}
+{txt}It's best to try your hands on anything  {c |}           {res}
+{txt}It's very good                           {c |}          {res}1
+{txt}Its best to have your own stocking pond  {c |}           {res}
+{txt}Its better to rear both tilapiaand catfi {c |}           {res}
+{txt}Keep doing tilapia, better to do catfish {c |}           {res}
+{txt}No better change in production           {c |}           {res}
+{txt}Pac breed is good                        {c |}           {res}
+{txt}Start and know your capabilities         {c |}           {res}
+{txt}Start with those who can spawn           {c |}           {res}
+{txt}Taking from far u incur transport cost a {c |}           {res}
+{txt}The breeding increases                   {c |}           {res}
+{txt}The hatcheries should try to do replacem {c |}          {res}1
+{txt}Tilapia production is the best           {c |}          {res}1
+{txt}Trusted sources                          {c |}           {res}
+{txt}When the fishes keep long they cant prod {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}2
+{txt}9999                                     {c |}          {res}1
+{txt}A faster growing tilapia strain should b {c |}          {res}1
+{txt}Add catfish if you have the means to pro {c |}           {res}
+{txt}Buying from the hatchery is the best     {c |}           {res}
+{txt}Choose the one closer to you             {c |}           {res}
+{txt}Choose thr readily available broodstock  {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}I think ARDEC do have the latest strain  {c |}          {res}1
+{txt}I will recommend a farm starts with catf {c |}           {res}
+{txt}I will say the AKUSE source would grow f {c |}          {res}1
+{txt}I would advice any new comer to buy from {c |}           {res}
+{txt}I would advice one buys from a fingerlin {c |}           {res}
+{txt}I would advice outgrowers to have their  {c |}          {res}1
+{txt}I would recommend everyone should buy Fi {c |}           {res}
+{txt}It is less costly as compared to tilapia {c |}           {res}
+{txt}It's best to try your hands on anything  {c |}          {res}1
+{txt}It's very good                           {c |}           {res}
+{txt}Its best to have your own stocking pond  {c |}           {res}
+{txt}Its better to rear both tilapiaand catfi {c |}           {res}
+{txt}Keep doing tilapia, better to do catfish {c |}           {res}
+{txt}No better change in production           {c |}           {res}
+{txt}Pac breed is good                        {c |}           {res}
+{txt}Start and know your capabilities         {c |}           {res}
+{txt}Start with those who can spawn           {c |}           {res}
+{txt}Taking from far u incur transport cost a {c |}           {res}
+{txt}The breeding increases                   {c |}          {res}1
+{txt}The hatcheries should try to do replacem {c |}           {res}
+{txt}Tilapia production is the best           {c |}           {res}
+{txt}Trusted sources                          {c |}           {res}
+{txt}When the fishes keep long they cant prod {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+999                                      {c |}           {res}
+{txt}9999                                     {c |}           {res}
+{txt}ARDEC fingerlings are better             {c |}           {res}
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Better to use certified fingerlings      {c |}           {res}
+{txt}Better to use fingerlings  from approved {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}Crystal lake has the best fingerlings    {c |}           {res}
+{txt}Find a security                          {c |}          {res}1
+{txt}Fish rights and mr Lee is ok             {c |}           {res}
+{txt}Halfcase grow bigger                     {c |}           {res}
+{txt}I advice anyone into fish farming to sou {c |}           {res}
+{txt}I experience more mortality than before  {c |}           {res}
+{txt}I recommend every fish farmer buys Finge {c |}           {res}
+{txt}I would advice a new farmer buy fingerli {c |}           {res}
+{txt}I would advice you buy 5 grams when ther {c |}           {res}
+{txt}I would recommend half cast to other far {c |}           {res}
+{txt}I would say the 1 gram fingerlings are n {c |}           {res}
+{txt}If they start reproducing among themselv {c |}           {res}
+{txt}It's good                                {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Its decrease mortality                   {c |}          {res}1
+{txt}Lee farms is the best                    {c |}           {res}
+{txt}Mr Lee's is better                       {c |}           {res}
+{txt}My new source'S breed grow bigger than t {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}          {res}1
+{txt}Producing fingerlings is more profitable {c |}          {res}1
+{txt}Producing our own figelings              {c |}           {res}
+{txt}Producing your own fingerlings           {c |}           {res}
+{txt}Producing your own fingerlings is the be {c |}           {res}
+{txt}Take fingerlings closer to you           {c |}           {res}
+{txt}Take from the nearest source             {c |}           {res}
+{txt}The 2grams fingerlings we normally exper {c |}          {res}1
+{txt}The closer the fingerlings source, there {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}Training helps                           {c |}           {res}
+{txt}buying fingerling from akosombo          {c |}           {res}
+{txt}buying fingerlings                       {c |}           {res}
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}           {res}
+{txt}9999                                     {c |}           {res}
+{txt}ARDEC fingerlings are better             {c |}           {res}
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Better to use certified fingerlings      {c |}          {res}1
+{txt}Better to use fingerlings  from approved {c |}          {res}1
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}Crystal lake has the best fingerlings    {c |}           {res}
+{txt}Find a security                          {c |}           {res}
+{txt}Fish rights and mr Lee is ok             {c |}           {res}
+{txt}Halfcase grow bigger                     {c |}           {res}
+{txt}I advice anyone into fish farming to sou {c |}           {res}
+{txt}I experience more mortality than before  {c |}           {res}
+{txt}I recommend every fish farmer buys Finge {c |}           {res}
+{txt}I would advice a new farmer buy fingerli {c |}           {res}
+{txt}I would advice you buy 5 grams when ther {c |}           {res}
+{txt}I would recommend half cast to other far {c |}           {res}
+{txt}I would say the 1 gram fingerlings are n {c |}           {res}
+{txt}If they start reproducing among themselv {c |}          {res}1
+{txt}It's good                                {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Its decrease mortality                   {c |}           {res}
+{txt}Lee farms is the best                    {c |}           {res}
+{txt}Mr Lee's is better                       {c |}           {res}
+{txt}My new source'S breed grow bigger than t {c |}          {res}1
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}          {res}1
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing our own figelings              {c |}           {res}
+{txt}Producing your own fingerlings           {c |}           {res}
+{txt}Producing your own fingerlings is the be {c |}           {res}
+{txt}Take fingerlings closer to you           {c |}          {res}1
+{txt}Take from the nearest source             {c |}          {res}1
+{txt}The 2grams fingerlings we normally exper {c |}           {res}
+{txt}The closer the fingerlings source, there {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}Training helps                           {c |}          {res}1
+{txt}buying fingerling from akosombo          {c |}           {res}
+{txt}buying fingerlings                       {c |}           {res}
+{txt}good                                     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}15
+{txt}9999                                     {c |}          {res}1
+{txt}ARDEC fingerlings are better             {c |}          {res}1
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Better to use certified fingerlings      {c |}           {res}
+{txt}Better to use fingerlings  from approved {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}          {res}1
+{txt}Crystal lake has the best fingerlings    {c |}          {res}1
+{txt}Find a security                          {c |}           {res}
+{txt}Fish rights and mr Lee is ok             {c |}          {res}1
+{txt}Halfcase grow bigger                     {c |}          {res}1
+{txt}I advice anyone into fish farming to sou {c |}           {res}
+{txt}I experience more mortality than before  {c |}          {res}1
+{txt}I recommend every fish farmer buys Finge {c |}          {res}1
+{txt}I would advice a new farmer buy fingerli {c |}           {res}
+{txt}I would advice you buy 5 grams when ther {c |}          {res}1
+{txt}I would recommend half cast to other far {c |}           {res}
+{txt}I would say the 1 gram fingerlings are n {c |}           {res}
+{txt}If they start reproducing among themselv {c |}           {res}
+{txt}It's good                                {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}Its decrease mortality                   {c |}           {res}
+{txt}Lee farms is the best                    {c |}          {res}1
+{txt}Mr Lee's is better                       {c |}          {res}1
+{txt}My new source'S breed grow bigger than t {c |}           {res}
+{txt}No                                       {c |}          {res}1
+{txt}None                                     {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing our own figelings              {c |}          {res}1
+{txt}Producing your own fingerlings           {c |}           {res}
+{txt}Producing your own fingerlings is the be {c |}           {res}
+{txt}Take fingerlings closer to you           {c |}           {res}
+{txt}Take from the nearest source             {c |}           {res}
+{txt}The 2grams fingerlings we normally exper {c |}           {res}
+{txt}The closer the fingerlings source, there {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}Training helps                           {c |}           {res}
+{txt}buying fingerling from akosombo          {c |}           {res}
+{txt}buying fingerlings                       {c |}          {res}1
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}          {res}1
+{txt}ARDEC fingerlings are better             {c |}           {res}
+{txt}Ashiaman is good                         {c |}          {res}1
+{txt}Better to use certified fingerlings      {c |}           {res}
+{txt}Better to use fingerlings  from approved {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}Crystal lake has the best fingerlings    {c |}           {res}
+{txt}Find a security                          {c |}           {res}
+{txt}Fish rights and mr Lee is ok             {c |}           {res}
+{txt}Halfcase grow bigger                     {c |}           {res}
+{txt}I advice anyone into fish farming to sou {c |}          {res}1
+{txt}I experience more mortality than before  {c |}           {res}
+{txt}I recommend every fish farmer buys Finge {c |}           {res}
+{txt}I would advice a new farmer buy fingerli {c |}          {res}1
+{txt}I would advice you buy 5 grams when ther {c |}           {res}
+{txt}I would recommend half cast to other far {c |}          {res}1
+{txt}I would say the 1 gram fingerlings are n {c |}          {res}1
+{txt}If they start reproducing among themselv {c |}           {res}
+{txt}It's good                                {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Its decrease mortality                   {c |}           {res}
+{txt}Lee farms is the best                    {c |}           {res}
+{txt}Mr Lee's is better                       {c |}           {res}
+{txt}My new source'S breed grow bigger than t {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing fingerlings is more profitable {c |}           {res}
+{txt}Producing our own figelings              {c |}           {res}
+{txt}Producing your own fingerlings           {c |}          {res}1
+{txt}Producing your own fingerlings is the be {c |}          {res}1
+{txt}Take fingerlings closer to you           {c |}           {res}
+{txt}Take from the nearest source             {c |}           {res}
+{txt}The 2grams fingerlings we normally exper {c |}           {res}
+{txt}The closer the fingerlings source, there {c |}          {res}1
+{txt}To get an expert to guide you in making  {c |}          {res}1
+{txt}Training helps                           {c |}           {res}
+{txt}buying fingerling from akosombo          {c |}          {res}1
+{txt}buying fingerlings                       {c |}           {res}
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+999                                      {c |}          {res}6
+{txt}9999                                     {c |}           {res}
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Aller Aqua is rich in protein that allow {c |}           {res}
+{txt}Aller acqua is good but expensive        {c |}           {res}
+{txt}Becareful changing feed                  {c |}           {res}
+{txt}Bel acqua  feeds are good as staretr and {c |}           {res}
+{txt}Combination of groundnut husk and maize  {c |}          {res}1
+{txt}Doing local feed good thsn buying ranaan {c |}           {res}
+{txt}Doing your own feed helps                {c |}           {res}
+{txt}Far better than before                   {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Have technical know how                  {c |}           {res}
+{txt}Huawei is ok                             {c |}           {res}
+{txt}I recommend Aller Aqua for its protein l {c |}           {res}
+{txt}I will recommend Aller Aqua as the best  {c |}           {res}
+{txt}I would advice one gives the fishes good {c |}           {res}
+{txt}I would recommend on farm production of  {c |}           {res}
+{txt}It's cost effective                      {c |}           {res}
+{txt}Local feed is the best                   {c |}           {res}
+{txt}Local feed is the best practice          {c |}          {res}1
+{txt}Local feed less expensive than ranaan    {c |}           {res}
+{txt}Make your own feed                       {c |}           {res}
+{txt}Multi feeds are expensive as compared to {c |}          {res}1
+{txt}Multi is good                            {c |}           {res}
+{txt}Multifeed is good but expensive          {c |}           {res}
+{txt}Nicolze is better                        {c |}           {res}
+{txt}One must adopt one type of feed in cultu {c |}           {res}
+{txt}Pira and multi feed are the best         {c |}           {res}
+{txt}Pira was good                            {c |}           {res}
+{txt}Prime as a starter feed and Ranaan as gr {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}Raanan is the best                       {c |}           {res}
+{txt}Ranaan because it close to my farm       {c |}           {res}
+{txt}Ranaan is better                         {c |}           {res}
+{txt}Ranaan is cheap but Ziegler is good      {c |}           {res}
+{txt}Rannan is better                         {c |}           {res}
+{txt}Scritin is good but expensive            {c |}           {res}
+{txt}Somehow good                             {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}The foating  feed is certified           {c |}           {res}
+{txt}To go for what you can afford            {c |}           {res}
+{txt}You should buy from the commercial feed  {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}produce theur iwn feed                   {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Aller Aqua is rich in protein that allow {c |}           {res}
+{txt}Aller acqua is good but expensive        {c |}           {res}
+{txt}Becareful changing feed                  {c |}           {res}
+{txt}Bel acqua  feeds are good as staretr and {c |}           {res}
+{txt}Combination of groundnut husk and maize  {c |}           {res}
+{txt}Doing local feed good thsn buying ranaan {c |}          {res}1
+{txt}Doing your own feed helps                {c |}          {res}1
+{txt}Far better than before                   {c |}          {res}1
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Have technical know how                  {c |}          {res}1
+{txt}Huawei is ok                             {c |}           {res}
+{txt}I recommend Aller Aqua for its protein l {c |}           {res}
+{txt}I will recommend Aller Aqua as the best  {c |}           {res}
+{txt}I would advice one gives the fishes good {c |}           {res}
+{txt}I would recommend on farm production of  {c |}           {res}
+{txt}It's cost effective                      {c |}          {res}1
+{txt}Local feed is the best                   {c |}          {res}1
+{txt}Local feed is the best practice          {c |}           {res}
+{txt}Local feed less expensive than ranaan    {c |}          {res}1
+{txt}Make your own feed                       {c |}          {res}1
+{txt}Multi feeds are expensive as compared to {c |}           {res}
+{txt}Multi is good                            {c |}           {res}
+{txt}Multifeed is good but expensive          {c |}           {res}
+{txt}Nicolze is better                        {c |}           {res}
+{txt}One must adopt one type of feed in cultu {c |}           {res}
+{txt}Pira and multi feed are the best         {c |}           {res}
+{txt}Pira was good                            {c |}           {res}
+{txt}Prime as a starter feed and Ranaan as gr {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}Raanan is the best                       {c |}          {res}1
+{txt}Ranaan because it close to my farm       {c |}           {res}
+{txt}Ranaan is better                         {c |}           {res}
+{txt}Ranaan is cheap but Ziegler is good      {c |}           {res}
+{txt}Rannan is better                         {c |}           {res}
+{txt}Scritin is good but expensive            {c |}           {res}
+{txt}Somehow good                             {c |}          {res}1
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}The foating  feed is certified           {c |}          {res}1
+{txt}To go for what you can afford            {c |}           {res}
+{txt}You should buy from the commercial feed  {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}produce theur iwn feed                   {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}6
+{txt}9999                                     {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}          {res}1
+{txt}Aller Aqua is rich in protein that allow {c |}          {res}1
+{txt}Aller acqua is good but expensive        {c |}          {res}1
+{txt}Becareful changing feed                  {c |}          {res}1
+{txt}Bel acqua  feeds are good as staretr and {c |}           {res}
+{txt}Combination of groundnut husk and maize  {c |}           {res}
+{txt}Doing local feed good thsn buying ranaan {c |}           {res}
+{txt}Doing your own feed helps                {c |}           {res}
+{txt}Far better than before                   {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}          {res}1
+{txt}Have technical know how                  {c |}           {res}
+{txt}Huawei is ok                             {c |}          {res}1
+{txt}I recommend Aller Aqua for its protein l {c |}          {res}1
+{txt}I will recommend Aller Aqua as the best  {c |}           {res}
+{txt}I would advice one gives the fishes good {c |}           {res}
+{txt}I would recommend on farm production of  {c |}           {res}
+{txt}It's cost effective                      {c |}           {res}
+{txt}Local feed is the best                   {c |}           {res}
+{txt}Local feed is the best practice          {c |}           {res}
+{txt}Local feed less expensive than ranaan    {c |}           {res}
+{txt}Make your own feed                       {c |}           {res}
+{txt}Multi feeds are expensive as compared to {c |}           {res}
+{txt}Multi is good                            {c |}          {res}1
+{txt}Multifeed is good but expensive          {c |}          {res}1
+{txt}Nicolze is better                        {c |}          {res}1
+{txt}One must adopt one type of feed in cultu {c |}          {res}1
+{txt}Pira and multi feed are the best         {c |}          {res}1
+{txt}Pira was good                            {c |}           {res}
+{txt}Prime as a starter feed and Ranaan as gr {c |}          {res}1
+{txt}Providing ready made feed is better than {c |}          {res}1
+{txt}Raanan is much better                    {c |}          {res}1
+{txt}Raanan is the best                       {c |}           {res}
+{txt}Ranaan because it close to my farm       {c |}           {res}
+{txt}Ranaan is better                         {c |}          {res}1
+{txt}Ranaan is cheap but Ziegler is good      {c |}          {res}1
+{txt}Rannan is better                         {c |}          {res}1
+{txt}Scritin is good but expensive            {c |}           {res}
+{txt}Somehow good                             {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}          {res}1
+{txt}The foating  feed is certified           {c |}           {res}
+{txt}To go for what you can afford            {c |}           {res}
+{txt}You should buy from the commercial feed  {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}          {res}1
+{txt}produce theur iwn feed                   {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}           {res}
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Aller Aqua is rich in protein that allow {c |}           {res}
+{txt}Aller acqua is good but expensive        {c |}           {res}
+{txt}Becareful changing feed                  {c |}           {res}
+{txt}Bel acqua  feeds are good as staretr and {c |}          {res}1
+{txt}Combination of groundnut husk and maize  {c |}           {res}
+{txt}Doing local feed good thsn buying ranaan {c |}           {res}
+{txt}Doing your own feed helps                {c |}           {res}
+{txt}Far better than before                   {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}          {res}1
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Have technical know how                  {c |}           {res}
+{txt}Huawei is ok                             {c |}           {res}
+{txt}I recommend Aller Aqua for its protein l {c |}           {res}
+{txt}I will recommend Aller Aqua as the best  {c |}          {res}1
+{txt}I would advice one gives the fishes good {c |}          {res}1
+{txt}I would recommend on farm production of  {c |}          {res}1
+{txt}It's cost effective                      {c |}           {res}
+{txt}Local feed is the best                   {c |}           {res}
+{txt}Local feed is the best practice          {c |}           {res}
+{txt}Local feed less expensive than ranaan    {c |}           {res}
+{txt}Make your own feed                       {c |}           {res}
+{txt}Multi feeds are expensive as compared to {c |}           {res}
+{txt}Multi is good                            {c |}           {res}
+{txt}Multifeed is good but expensive          {c |}           {res}
+{txt}Nicolze is better                        {c |}           {res}
+{txt}One must adopt one type of feed in cultu {c |}           {res}
+{txt}Pira and multi feed are the best         {c |}           {res}
+{txt}Pira was good                            {c |}          {res}1
+{txt}Prime as a starter feed and Ranaan as gr {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}Raanan is the best                       {c |}           {res}
+{txt}Ranaan because it close to my farm       {c |}          {res}1
+{txt}Ranaan is better                         {c |}           {res}
+{txt}Ranaan is cheap but Ziegler is good      {c |}           {res}
+{txt}Rannan is better                         {c |}           {res}
+{txt}Scritin is good but expensive            {c |}          {res}1
+{txt}Somehow good                             {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}The foating  feed is certified           {c |}           {res}
+{txt}To go for what you can afford            {c |}          {res}1
+{txt}You should buy from the commercial feed  {c |}          {res}1
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}produce theur iwn feed                   {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}           {res}
+{txt}Activate charcoal process                {c |}          {res}1
+{txt}Changing the water regularly helps with  {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}           {res}
+{txt}Activate charcoal process                {c |}           {res}
+{txt}Changing the water regularly helps with  {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}2
+{txt}Activate charcoal process                {c |}           {res}
+{txt}Changing the water regularly helps with  {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+Farmers should attend training           {c |}          {res}1
+{txt}I would recommend the Aqua Cold as the b {c |}           {res}
+{txt}Not much improvement                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+Farmers should attend training           {c |}           {res}
+{txt}I would recommend the Aqua Cold as the b {c |}           {res}
+{txt}Not much improvement                     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+Farmers should attend training           {c |}           {res}
+{txt}I would recommend the Aqua Cold as the b {c |}          {res}1
+{txt}Not much improvement                     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+999                                      {c |}          {res}2
+{txt}Availability of capital before investing {c |}           {res}
+{txt}Availability of resouce                  {c |}          {res}1
+{txt}Becouse of mortality you stock a bit hig {c |}          {res}1
+{txt}Buy the number you can feed properly     {c |}           {res}
+{txt}Capital Intensive                        {c |}           {res}
+{txt}Do not over stock                        {c |}           {res}
+{txt}Enough money needed                      {c |}           {res}
+{txt}First look at capapcity in terms of capi {c |}           {res}
+{txt}Fish farming is capital intensive        {c |}           {res}
+{txt}Fishing is capital intensive             {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}High stocking at the beginningg of produ {c |}          {res}1
+{txt}High stocking rate                       {c |}           {res}
+{txt}I advice people to give attention to the {c |}           {res}
+{txt}I would advice anyone to give good atten {c |}           {res}
+{txt}Increase it if you have the capacity     {c |}           {res}
+{txt}It have been helpful  ever since I chang {c |}           {res}
+{txt}It's been helpful  since                 {c |}           {res}
+{txt}It's very good ever since I changed it   {c |}           {res}
+{txt}Less stockingbis better                  {c |}           {res}
+{txt}Lower stock  density is best             {c |}           {res}
+{txt}Lower stocking allows for good growth    {c |}           {res}
+{txt}Lower stocking density so we can feed th {c |}           {res}
+{txt}Making more profit when you increase sto {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Nothing                                  {c |}           {res}
+{txt}One must be ready to provide enough feed {c |}           {res}
+{txt}One must know the terrain of his water s {c |}           {res}
+{txt}Produce according to your capital        {c |}          {res}1
+{txt}Produce your own feed                    {c |}           {res}
+{txt}Provide better spacing For fishes in the {c |}           {res}
+{txt}Seek advice from Extension Agent when st {c |}           {res}
+{txt}Seek advice from extension agent         {c |}           {res}
+{txt}Stock adequately                         {c |}           {res}
+{txt}Stock based on the number you can feed w {c |}           {res}
+{txt}Stock in relation to your financial capa {c |}           {res}
+{txt}Stock per advise from experts            {c |}           {res}
+{txt}Stock when water is good                 {c |}           {res}
+{txt}Stocking  A lot during the cold weather  {c |}           {res}
+{txt}Stocking  small quantity is the best     {c |}           {res}
+{txt}Stocking adequately                      {c |}           {res}
+{txt}Stocking in smaller quantity they grow f {c |}           {res}
+{txt}Stocking less is better because they gro {c |}           {res}
+{txt}Stocking less is the best practice       {c |}           {res}
+{txt}Stocking small                           {c |}           {res}
+{txt}Stocking smaller quantities they grow fa {c |}           {res}
+{txt}Stocking smaller quantity                {c |}           {res}
+{txt}Stocking smaller quantity help the fish  {c |}           {res}
+{txt}The best method                          {c |}           {res}
+{txt}The higher your stocking rate the high t {c |}           {res}
+{txt}When you stock the small ones, there is  {c |}           {res}
+{txt}You stocking high if u have the requirem {c |}          {res}1
+{txt}always consult extension agents          {c |}           {res}
+{txt}very advisable                           {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}9
+{txt}Availability of capital before investing {c |}           {res}
+{txt}Availability of resouce                  {c |}           {res}
+{txt}Becouse of mortality you stock a bit hig {c |}           {res}
+{txt}Buy the number you can feed properly     {c |}           {res}
+{txt}Capital Intensive                        {c |}           {res}
+{txt}Do not over stock                        {c |}          {res}1
+{txt}Enough money needed                      {c |}           {res}
+{txt}First look at capapcity in terms of capi {c |}          {res}1
+{txt}Fish farming is capital intensive        {c |}           {res}
+{txt}Fishing is capital intensive             {c |}           {res}
+{txt}Good                                     {c |}          {res}4
+{txt}High stocking at the beginningg of produ {c |}           {res}
+{txt}High stocking rate                       {c |}          {res}1
+{txt}I advice people to give attention to the {c |}           {res}
+{txt}I would advice anyone to give good atten {c |}           {res}
+{txt}Increase it if you have the capacity     {c |}          {res}1
+{txt}It have been helpful  ever since I chang {c |}           {res}
+{txt}It's been helpful  since                 {c |}           {res}
+{txt}It's very good ever since I changed it   {c |}           {res}
+{txt}Less stockingbis better                  {c |}           {res}
+{txt}Lower stock  density is best             {c |}          {res}1
+{txt}Lower stocking allows for good growth    {c |}           {res}
+{txt}Lower stocking density so we can feed th {c |}           {res}
+{txt}Making more profit when you increase sto {c |}           {res}
+{txt}None                                     {c |}          {res}3
+{txt}Nothing                                  {c |}          {res}2
+{txt}One must be ready to provide enough feed {c |}           {res}
+{txt}One must know the terrain of his water s {c |}           {res}
+{txt}Produce according to your capital        {c |}           {res}
+{txt}Produce your own feed                    {c |}          {res}1
+{txt}Provide better spacing For fishes in the {c |}           {res}
+{txt}Seek advice from Extension Agent when st {c |}          {res}1
+{txt}Seek advice from extension agent         {c |}          {res}1
+{txt}Stock adequately                         {c |}           {res}
+{txt}Stock based on the number you can feed w {c |}           {res}
+{txt}Stock in relation to your financial capa {c |}           {res}
+{txt}Stock per advise from experts            {c |}          {res}1
+{txt}Stock when water is good                 {c |}           {res}
+{txt}Stocking  A lot during the cold weather  {c |}           {res}
+{txt}Stocking  small quantity is the best     {c |}           {res}
+{txt}Stocking adequately                      {c |}           {res}
+{txt}Stocking in smaller quantity they grow f {c |}           {res}
+{txt}Stocking less is better because they gro {c |}           {res}
+{txt}Stocking less is the best practice       {c |}           {res}
+{txt}Stocking small                           {c |}           {res}
+{txt}Stocking smaller quantities they grow fa {c |}           {res}
+{txt}Stocking smaller quantity                {c |}           {res}
+{txt}Stocking smaller quantity help the fish  {c |}           {res}
+{txt}The best method                          {c |}          {res}1
+{txt}The higher your stocking rate the high t {c |}          {res}1
+{txt}When you stock the small ones, there is  {c |}          {res}1
+{txt}You stocking high if u have the requirem {c |}           {res}
+{txt}always consult extension agents          {c |}          {res}1
+{txt}very advisable                           {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}19
+{txt}Availability of capital before investing {c |}          {res}1
+{txt}Availability of resouce                  {c |}           {res}
+{txt}Becouse of mortality you stock a bit hig {c |}           {res}
+{txt}Buy the number you can feed properly     {c |}           {res}
+{txt}Capital Intensive                        {c |}          {res}1
+{txt}Do not over stock                        {c |}           {res}
+{txt}Enough money needed                      {c |}          {res}1
+{txt}First look at capapcity in terms of capi {c |}           {res}
+{txt}Fish farming is capital intensive        {c |}          {res}1
+{txt}Fishing is capital intensive             {c |}          {res}1
+{txt}Good                                     {c |}           {res}
+{txt}High stocking at the beginningg of produ {c |}           {res}
+{txt}High stocking rate                       {c |}           {res}
+{txt}I advice people to give attention to the {c |}          {res}1
+{txt}I would advice anyone to give good atten {c |}          {res}1
+{txt}Increase it if you have the capacity     {c |}           {res}
+{txt}It have been helpful  ever since I chang {c |}           {res}
+{txt}It's been helpful  since                 {c |}          {res}1
+{txt}It's very good ever since I changed it   {c |}          {res}1
+{txt}Less stockingbis better                  {c |}           {res}
+{txt}Lower stock  density is best             {c |}           {res}
+{txt}Lower stocking allows for good growth    {c |}          {res}1
+{txt}Lower stocking density so we can feed th {c |}          {res}1
+{txt}Making more profit when you increase sto {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Nothing                                  {c |}           {res}
+{txt}One must be ready to provide enough feed {c |}          {res}1
+{txt}One must know the terrain of his water s {c |}           {res}
+{txt}Produce according to your capital        {c |}           {res}
+{txt}Produce your own feed                    {c |}           {res}
+{txt}Provide better spacing For fishes in the {c |}          {res}1
+{txt}Seek advice from Extension Agent when st {c |}           {res}
+{txt}Seek advice from extension agent         {c |}           {res}
+{txt}Stock adequately                         {c |}          {res}1
+{txt}Stock based on the number you can feed w {c |}          {res}1
+{txt}Stock in relation to your financial capa {c |}          {res}1
+{txt}Stock per advise from experts            {c |}           {res}
+{txt}Stock when water is good                 {c |}          {res}1
+{txt}Stocking  A lot during the cold weather  {c |}          {res}1
+{txt}Stocking  small quantity is the best     {c |}          {res}1
+{txt}Stocking adequately                      {c |}          {res}1
+{txt}Stocking in smaller quantity they grow f {c |}          {res}1
+{txt}Stocking less is better because they gro {c |}          {res}1
+{txt}Stocking less is the best practice       {c |}          {res}1
+{txt}Stocking small                           {c |}           {res}
+{txt}Stocking smaller quantities they grow fa {c |}          {res}1
+{txt}Stocking smaller quantity                {c |}           {res}
+{txt}Stocking smaller quantity help the fish  {c |}          {res}1
+{txt}The best method                          {c |}           {res}
+{txt}The higher your stocking rate the high t {c |}           {res}
+{txt}When you stock the small ones, there is  {c |}           {res}
+{txt}You stocking high if u have the requirem {c |}           {res}
+{txt}always consult extension agents          {c |}           {res}
+{txt}very advisable                           {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}8
+{txt}Availability of capital before investing {c |}           {res}
+{txt}Availability of resouce                  {c |}           {res}
+{txt}Becouse of mortality you stock a bit hig {c |}           {res}
+{txt}Buy the number you can feed properly     {c |}          {res}1
+{txt}Capital Intensive                        {c |}           {res}
+{txt}Do not over stock                        {c |}           {res}
+{txt}Enough money needed                      {c |}           {res}
+{txt}First look at capapcity in terms of capi {c |}           {res}
+{txt}Fish farming is capital intensive        {c |}           {res}
+{txt}Fishing is capital intensive             {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}High stocking at the beginningg of produ {c |}           {res}
+{txt}High stocking rate                       {c |}           {res}
+{txt}I advice people to give attention to the {c |}           {res}
+{txt}I would advice anyone to give good atten {c |}           {res}
+{txt}Increase it if you have the capacity     {c |}           {res}
+{txt}It have been helpful  ever since I chang {c |}          {res}1
+{txt}It's been helpful  since                 {c |}           {res}
+{txt}It's very good ever since I changed it   {c |}           {res}
+{txt}Less stockingbis better                  {c |}          {res}1
+{txt}Lower stock  density is best             {c |}           {res}
+{txt}Lower stocking allows for good growth    {c |}           {res}
+{txt}Lower stocking density so we can feed th {c |}           {res}
+{txt}Making more profit when you increase sto {c |}          {res}1
+{txt}None                                     {c |}           {res}
+{txt}Nothing                                  {c |}           {res}
+{txt}One must be ready to provide enough feed {c |}           {res}
+{txt}One must know the terrain of his water s {c |}          {res}1
+{txt}Produce according to your capital        {c |}           {res}
+{txt}Produce your own feed                    {c |}           {res}
+{txt}Provide better spacing For fishes in the {c |}           {res}
+{txt}Seek advice from Extension Agent when st {c |}           {res}
+{txt}Seek advice from extension agent         {c |}           {res}
+{txt}Stock adequately                         {c |}          {res}1
+{txt}Stock based on the number you can feed w {c |}           {res}
+{txt}Stock in relation to your financial capa {c |}           {res}
+{txt}Stock per advise from experts            {c |}           {res}
+{txt}Stock when water is good                 {c |}           {res}
+{txt}Stocking  A lot during the cold weather  {c |}           {res}
+{txt}Stocking  small quantity is the best     {c |}           {res}
+{txt}Stocking adequately                      {c |}          {res}1
+{txt}Stocking in smaller quantity they grow f {c |}           {res}
+{txt}Stocking less is better because they gro {c |}           {res}
+{txt}Stocking less is the best practice       {c |}           {res}
+{txt}Stocking small                           {c |}          {res}1
+{txt}Stocking smaller quantities they grow fa {c |}           {res}
+{txt}Stocking smaller quantity                {c |}          {res}1
+{txt}Stocking smaller quantity help the fish  {c |}           {res}
+{txt}The best method                          {c |}           {res}
+{txt}The higher your stocking rate the high t {c |}           {res}
+{txt}When you stock the small ones, there is  {c |}           {res}
+{txt}You stocking high if u have the requirem {c |}           {res}
+{txt}always consult extension agents          {c |}           {res}
+{txt}very advisable                           {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}2
+{txt}9999                                     {c |}           {res}
+{txt}It's good                                {c |}           {res}
+{txt}It's have been good                      {c |}           {res}
+{txt}None                                     {c |}          {res}1
+{txt}One should always locate cages at places {c |}           {res}
+{txt}Site inspection is key                   {c |}          {res}1
+{txt}Stocking rate should not be too high     {c |}           {res}
+{txt}The depth of the water helps and it redu {c |}           {res}
+{txt}To prevent the possible contamination of {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}          {res}1
+{txt}It's good                                {c |}          {res}1
+{txt}It's have been good                      {c |}          {res}1
+{txt}None                                     {c |}           {res}
+{txt}One should always locate cages at places {c |}          {res}1
+{txt}Site inspection is key                   {c |}           {res}
+{txt}Stocking rate should not be too high     {c |}          {res}1
+{txt}The depth of the water helps and it redu {c |}           {res}
+{txt}To prevent the possible contamination of {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}It's good                                {c |}           {res}
+{txt}It's have been good                      {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}One should always locate cages at places {c |}           {res}
+{txt}Site inspection is key                   {c |}           {res}
+{txt}Stocking rate should not be too high     {c |}           {res}
+{txt}The depth of the water helps and it redu {c |}          {res}1
+{txt}To prevent the possible contamination of {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}3
+{txt}I advice one should start with a small c {c |}           {res}
+{txt}None                                     {c |}          {res}2
+{txt}Using Both cage size                     {c |}           {res}
+{txt}bigger to accommodate the fishes         {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}I advice one should start with a small c {c |}          {res}1
+{txt}None                                     {c |}           {res}
+{txt}Using Both cage size                     {c |}           {res}
+{txt}bigger to accommodate the fishes         {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}5
+{txt}I advice one should start with a small c {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Using Both cage size                     {c |}          {res}1
+{txt}bigger to accommodate the fishes         {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}           {res}
+{txt}9999                                     {c |}           {res}
+{txt}Boat is better                           {c |}           {res}
+{txt}Buying from short distance hatchery is b {c |}           {res}
+{txt}Double bag packaging is the best         {c |}           {res}
+{txt}The quantity of Fingerlings placed in a  {c |}           {res}
+{txt}Use your own car                         {c |}          {res}1
+{txt}Vehicle is ok                            {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}5
+{txt}9999                                     {c |}          {res}1
+{txt}Boat is better                           {c |}          {res}1
+{txt}Buying from short distance hatchery is b {c |}          {res}1
+{txt}Double bag packaging is the best         {c |}          {res}1
+{txt}The quantity of Fingerlings placed in a  {c |}           {res}
+{txt}Use your own car                         {c |}           {res}
+{txt}Vehicle is ok                            {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}           {res}
+{txt}Boat is better                           {c |}           {res}
+{txt}Buying from short distance hatchery is b {c |}           {res}
+{txt}Double bag packaging is the best         {c |}           {res}
+{txt}The quantity of Fingerlings placed in a  {c |}          {res}1
+{txt}Use your own car                         {c |}           {res}
+{txt}Vehicle is ok                            {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+10 kilos survive more than the 5         {c |}          {res}1
+{txt}1g is better                             {c |}           {res}
+{txt}2g is better                             {c |}           {res}
+{txt}999                                      {c |}           {res}
+{txt}Buy what you can afford                  {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}I will advise that we go in for the size {c |}           {res}
+{txt}I would advice farmers purchase 1 gram F {c |}           {res}
+{txt}I would advice one should buy Fingerling {c |}           {res}
+{txt}Its good to use 10g or above             {c |}           {res}
+{txt}Its good to use bigger sizes             {c |}           {res}
+{txt}Its reduces mortality                    {c |}          {res}1
+{txt}One is advised to purchase a lower gram  {c |}           {res}
+{txt}Smaller sizes survive better for longer  {c |}           {res}
+{txt}Somehow good                             {c |}           {res}
+{txt}Stop using size 2 and use size 7         {c |}           {res}
+{txt}The 2grams we normally have high mortali {c |}          {res}1
+{txt}The bigger the size the higher the breed {c |}           {res}
+{txt}The fry is cheaper than fingerling       {c |}           {res}
+{txt}The lower the grams, the higher the quan {c |}           {res}
+{txt}farmers should stock their fishes in hig {c |}           {res}
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+10 kilos survive more than the 5         {c |}           {res}
+{txt}1g is better                             {c |}           {res}
+{txt}2g is better                             {c |}           {res}
+{txt}999                                      {c |}          {res}1
+{txt}Buy what you can afford                  {c |}           {res}
+{txt}Good                                     {c |}          {res}1
+{txt}I will advise that we go in for the size {c |}           {res}
+{txt}I would advice farmers purchase 1 gram F {c |}           {res}
+{txt}I would advice one should buy Fingerling {c |}           {res}
+{txt}Its good to use 10g or above             {c |}          {res}1
+{txt}Its good to use bigger sizes             {c |}          {res}1
+{txt}Its reduces mortality                    {c |}           {res}
+{txt}One is advised to purchase a lower gram  {c |}           {res}
+{txt}Smaller sizes survive better for longer  {c |}           {res}
+{txt}Somehow good                             {c |}          {res}1
+{txt}Stop using size 2 and use size 7         {c |}          {res}1
+{txt}The 2grams we normally have high mortali {c |}           {res}
+{txt}The bigger the size the higher the breed {c |}          {res}1
+{txt}The fry is cheaper than fingerling       {c |}           {res}
+{txt}The lower the grams, the higher the quan {c |}           {res}
+{txt}farmers should stock their fishes in hig {c |}          {res}1
+{txt}good                                     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+10 kilos survive more than the 5         {c |}           {res}
+{txt}1g is better                             {c |}          {res}1
+{txt}2g is better                             {c |}          {res}1
+{txt}999                                      {c |}          {res}4
+{txt}Buy what you can afford                  {c |}          {res}1
+{txt}Good                                     {c |}           {res}
+{txt}I will advise that we go in for the size {c |}          {res}1
+{txt}I would advice farmers purchase 1 gram F {c |}          {res}1
+{txt}I would advice one should buy Fingerling {c |}           {res}
+{txt}Its good to use 10g or above             {c |}           {res}
+{txt}Its good to use bigger sizes             {c |}           {res}
+{txt}Its reduces mortality                    {c |}           {res}
+{txt}One is advised to purchase a lower gram  {c |}           {res}
+{txt}Smaller sizes survive better for longer  {c |}          {res}1
+{txt}Somehow good                             {c |}           {res}
+{txt}Stop using size 2 and use size 7         {c |}           {res}
+{txt}The 2grams we normally have high mortali {c |}           {res}
+{txt}The bigger the size the higher the breed {c |}           {res}
+{txt}The fry is cheaper than fingerling       {c |}          {res}1
+{txt}The lower the grams, the higher the quan {c |}          {res}1
+{txt}farmers should stock their fishes in hig {c |}           {res}
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+10 kilos survive more than the 5         {c |}           {res}
+{txt}1g is better                             {c |}           {res}
+{txt}2g is better                             {c |}          {res}1
+{txt}999                                      {c |}          {res}2
+{txt}Buy what you can afford                  {c |}           {res}
+{txt}Good                                     {c |}           {res}
+{txt}I will advise that we go in for the size {c |}           {res}
+{txt}I would advice farmers purchase 1 gram F {c |}           {res}
+{txt}I would advice one should buy Fingerling {c |}          {res}1
+{txt}Its good to use 10g or above             {c |}           {res}
+{txt}Its good to use bigger sizes             {c |}           {res}
+{txt}Its reduces mortality                    {c |}           {res}
+{txt}One is advised to purchase a lower gram  {c |}          {res}1
+{txt}Smaller sizes survive better for longer  {c |}           {res}
+{txt}Somehow good                             {c |}           {res}
+{txt}Stop using size 2 and use size 7         {c |}           {res}
+{txt}The 2grams we normally have high mortali {c |}           {res}
+{txt}The bigger the size the higher the breed {c |}           {res}
+{txt}The fry is cheaper than fingerling       {c |}           {res}
+{txt}The lower the grams, the higher the quan {c |}           {res}
+{txt}farmers should stock their fishes in hig {c |}           {res}
+{txt}good                                     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Ashanti                                  {c |}
+999                                      {c |}          {res}2
+{txt}9999                                     {c |}          {res}1
+{txt}Best stock keeping practices             {c |}          {res}1
+{txt}Do not employ many people when there wou {c |}           {res}
+{txt}Employ depending on the farm and produti {c |}          {res}1
+{txt}Employ experience and honest people      {c |}           {res}
+{txt}Employ labour if you not always around   {c |}           {res}
+{txt}Employ more skilled workers if the need  {c |}           {res}
+{txt}Employ people you trust and also who are {c |}           {res}
+{txt}Get a reliable worker                    {c |}          {res}1
+{txt}Get quality labour                       {c |}           {res}
+{txt}Get reliable labour                      {c |}          {res}1
+{txt}Get trusted labour                       {c |}          {res}1
+{txt}I WILL ADVICE THAT HE/SHE SHOULD TAKE WO {c |}           {res}
+{txt}Labourers needs serious training from pr {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Nothing                                  {c |}           {res}
+{txt}One should be able to get reliable and   {c |}           {res}
+{txt}Pay worker well                          {c |}           {res}
+{txt}Should get committed persons and self mo {c |}           {res}
+{txt}The farm manager must be a truthful and  {c |}           {res}
+{txt}To Pay your labours well                 {c |}           {res}
+{txt}To employ Good divers and a fast learner {c |}           {res}
+{txt}Training and basic education             {c |}           {res}
+{txt}Work with trusted labor                  {c |}          {res}1
+{txt}You employ trusted employees only in fis {c |}          {res}1
+{txt}no                                       {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Brong-Ahafo                              {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}Best stock keeping practices             {c |}           {res}
+{txt}Do not employ many people when there wou {c |}           {res}
+{txt}Employ depending on the farm and produti {c |}           {res}
+{txt}Employ experience and honest people      {c |}           {res}
+{txt}Employ labour if you not always around   {c |}          {res}1
+{txt}Employ more skilled workers if the need  {c |}           {res}
+{txt}Employ people you trust and also who are {c |}           {res}
+{txt}Get a reliable worker                    {c |}           {res}
+{txt}Get quality labour                       {c |}          {res}1
+{txt}Get reliable labour                      {c |}           {res}
+{txt}Get trusted labour                       {c |}           {res}
+{txt}I WILL ADVICE THAT HE/SHE SHOULD TAKE WO {c |}           {res}
+{txt}Labourers needs serious training from pr {c |}          {res}1
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}          {res}2
+{txt}Nothing                                  {c |}          {res}1
+{txt}One should be able to get reliable and   {c |}           {res}
+{txt}Pay worker well                          {c |}          {res}1
+{txt}Should get committed persons and self mo {c |}           {res}
+{txt}The farm manager must be a truthful and  {c |}           {res}
+{txt}To Pay your labours well                 {c |}           {res}
+{txt}To employ Good divers and a fast learner {c |}           {res}
+{txt}Training and basic education             {c |}          {res}1
+{txt}Work with trusted labor                  {c |}           {res}
+{txt}You employ trusted employees only in fis {c |}           {res}
+{txt}no                                       {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}10
+{txt}9999                                     {c |}           {res}
+{txt}Best stock keeping practices             {c |}           {res}
+{txt}Do not employ many people when there wou {c |}           {res}
+{txt}Employ depending on the farm and produti {c |}           {res}
+{txt}Employ experience and honest people      {c |}          {res}1
+{txt}Employ labour if you not always around   {c |}           {res}
+{txt}Employ more skilled workers if the need  {c |}           {res}
+{txt}Employ people you trust and also who are {c |}           {res}
+{txt}Get a reliable worker                    {c |}           {res}
+{txt}Get quality labour                       {c |}           {res}
+{txt}Get reliable labour                      {c |}           {res}
+{txt}Get trusted labour                       {c |}           {res}
+{txt}I WILL ADVICE THAT HE/SHE SHOULD TAKE WO {c |}          {res}1
+{txt}Labourers needs serious training from pr {c |}           {res}
+{txt}No                                       {c |}          {res}1
+{txt}None                                     {c |}          {res}1
+{txt}Nothing                                  {c |}           {res}
+{txt}One should be able to get reliable and   {c |}          {res}1
+{txt}Pay worker well                          {c |}           {res}
+{txt}Should get committed persons and self mo {c |}           {res}
+{txt}The farm manager must be a truthful and  {c |}           {res}
+{txt}To Pay your labours well                 {c |}          {res}1
+{txt}To employ Good divers and a fast learner {c |}          {res}1
+{txt}Training and basic education             {c |}           {res}
+{txt}Work with trusted labor                  {c |}           {res}
+{txt}You employ trusted employees only in fis {c |}           {res}
+{txt}no                                       {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}7
+{txt}9999                                     {c |}           {res}
+{txt}Best stock keeping practices             {c |}           {res}
+{txt}Do not employ many people when there wou {c |}          {res}1
+{txt}Employ depending on the farm and produti {c |}           {res}
+{txt}Employ experience and honest people      {c |}           {res}
+{txt}Employ labour if you not always around   {c |}           {res}
+{txt}Employ more skilled workers if the need  {c |}          {res}1
+{txt}Employ people you trust and also who are {c |}          {res}1
+{txt}Get a reliable worker                    {c |}           {res}
+{txt}Get quality labour                       {c |}           {res}
+{txt}Get reliable labour                      {c |}           {res}
+{txt}Get trusted labour                       {c |}           {res}
+{txt}I WILL ADVICE THAT HE/SHE SHOULD TAKE WO {c |}           {res}
+{txt}Labourers needs serious training from pr {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}None                                     {c |}           {res}
+{txt}Nothing                                  {c |}           {res}
+{txt}One should be able to get reliable and   {c |}           {res}
+{txt}Pay worker well                          {c |}           {res}
+{txt}Should get committed persons and self mo {c |}          {res}1
+{txt}The farm manager must be a truthful and  {c |}          {res}1
+{txt}To Pay your labours well                 {c |}           {res}
+{txt}To employ Good divers and a fast learner {c |}           {res}
+{txt}Training and basic education             {c |}           {res}
+{txt}Work with trusted labor                  {c |}           {res}
+{txt}You employ trusted employees only in fis {c |}           {res}
+{txt}no                                       {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var' if pond==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+
+{txt}{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+I will recommend a farm starts with catf {c |}          {res}1
+{txt}The breeding increases                   {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+I will recommend a farm starts with catf {c |}           {res}
+{txt}The breeding increases                   {c |}          {res}1
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}          {res}1
+{txt}No                                       {c |}          {res}1
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}           {res}
+{txt}Ashiaman is good                         {c |}          {res}1
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}          {res}1
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}          {res}1
+{txt}Providing ready made feed is better than {c |}          {res}1
+{txt}Raanan is much better                    {c |}          {res}1
+{txt}The feeds brings the fish out of the wat {c |}          {res}1
+{txt}To go for what you can afford            {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}          {res}1
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}To go for what you can afford            {c |}          {res}1
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+Changing the water regularly helps with  {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+{err}no observations
+{txt}{search r(2000), local:r(2000);}
+
+end of do-file
+
+{search r(2000), local:r(2000);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var' if pond==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+
+{txt}{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+I will recommend a farm starts with catf {c |}          {res}1
+{txt}The breeding increases                   {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+I will recommend a farm starts with catf {c |}           {res}
+{txt}The breeding increases                   {c |}          {res}1
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}          {res}1
+{txt}No                                       {c |}          {res}1
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}           {res}
+{txt}Ashiaman is good                         {c |}          {res}1
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}          {res}1
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}          {res}1
+{txt}Providing ready made feed is better than {c |}          {res}1
+{txt}Raanan is much better                    {c |}          {res}1
+{txt}The feeds brings the fish out of the wat {c |}          {res}1
+{txt}To go for what you can afford            {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}          {res}1
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}To go for what you can afford            {c |}          {res}1
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+Changing the water regularly helps with  {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+{err}no observations
+{txt}{search r(2000), local:r(2000);}
+
+end of do-file
+
+{search r(2000), local:r(2000);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var'if cage==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+{err}variable {bf}d6diif{sf} not found
+{txt}{search r(111), local:r(111);}
+
+end of do-file
+
+{search r(111), local:r(111);}
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var' if cage==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+
+{txt}{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}           {res}
+{txt}A faster growing tilapia strain should b {c |}           {res}
+{txt}I think ARDEC do have the latest strain  {c |}           {res}
+{txt}I will say the AKUSE source would grow f {c |}           {res}
+{txt}I would advice any new comer to buy from {c |}          {res}1
+{txt}I would advice one buys from a fingerlin {c |}          {res}1
+{txt}I would advice outgrowers to have their  {c |}           {res}
+{txt}I would recommend everyone should buy Fi {c |}          {res}1
+{txt}It's best to try your hands on anything  {c |}           {res}
+{txt}It's very good                           {c |}          {res}1
+{txt}The breeding increases                   {c |}           {res}
+{txt}The hatcheries should try to do replacem {c |}          {res}1
+{txt}Tilapia production is the best           {c |}          {res}1
+{txt}i will recomend tilapia for a cage produ {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}2
+{txt}9999                                     {c |}          {res}1
+{txt}A faster growing tilapia strain should b {c |}          {res}1
+{txt}I think ARDEC do have the latest strain  {c |}          {res}1
+{txt}I will say the AKUSE source would grow f {c |}          {res}1
+{txt}I would advice any new comer to buy from {c |}           {res}
+{txt}I would advice one buys from a fingerlin {c |}           {res}
+{txt}I would advice outgrowers to have their  {c |}          {res}1
+{txt}I would recommend everyone should buy Fi {c |}           {res}
+{txt}It's best to try your hands on anything  {c |}          {res}1
+{txt}It's very good                           {c |}           {res}
+{txt}The breeding increases                   {c |}          {res}1
+{txt}The hatcheries should try to do replacem {c |}           {res}
+{txt}Tilapia production is the best           {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}14
+{txt}9999                                     {c |}          {res}1
+{txt}ARDEC fingerlings are better             {c |}          {res}1
+{txt}Crystal lake has the best fingerlings    {c |}          {res}1
+{txt}Fish rights and mr Lee is ok             {c |}          {res}1
+{txt}Halfcase grow bigger                     {c |}          {res}1
+{txt}I advice anyone into fish farming to sou {c |}           {res}
+{txt}I experience more mortality than before  {c |}          {res}1
+{txt}I recommend every fish farmer buys Finge {c |}          {res}1
+{txt}I would advice a new farmer buy fingerli {c |}           {res}
+{txt}I would advice you buy 5 grams when ther {c |}          {res}1
+{txt}I would recommend half cast to other far {c |}           {res}
+{txt}I would say the 1 gram fingerlings are n {c |}           {res}
+{txt}It's good                                {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}Lee farms is the best                    {c |}          {res}1
+{txt}Mr Lee's is better                       {c |}          {res}1
+{txt}Producing our own figelings              {c |}          {res}1
+{txt}Producing your own fingerlings           {c |}           {res}
+{txt}Producing your own fingerlings is the be {c |}           {res}
+{txt}The closer the fingerlings source, there {c |}           {res}
+{txt}buying fingerling from akosombo          {c |}           {res}
+{txt}buying fingerlings                       {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}          {res}1
+{txt}ARDEC fingerlings are better             {c |}           {res}
+{txt}Crystal lake has the best fingerlings    {c |}           {res}
+{txt}Fish rights and mr Lee is ok             {c |}           {res}
+{txt}Halfcase grow bigger                     {c |}           {res}
+{txt}I advice anyone into fish farming to sou {c |}          {res}1
+{txt}I experience more mortality than before  {c |}           {res}
+{txt}I recommend every fish farmer buys Finge {c |}           {res}
+{txt}I would advice a new farmer buy fingerli {c |}          {res}1
+{txt}I would advice you buy 5 grams when ther {c |}           {res}
+{txt}I would recommend half cast to other far {c |}          {res}1
+{txt}I would say the 1 gram fingerlings are n {c |}          {res}1
+{txt}It's good                                {c |}           {res}
+{txt}It's very good                           {c |}           {res}
+{txt}Lee farms is the best                    {c |}           {res}
+{txt}Mr Lee's is better                       {c |}           {res}
+{txt}Producing our own figelings              {c |}           {res}
+{txt}Producing your own fingerlings           {c |}          {res}1
+{txt}Producing your own fingerlings is the be {c |}          {res}1
+{txt}The closer the fingerlings source, there {c |}          {res}1
+{txt}buying fingerling from akosombo          {c |}          {res}1
+{txt}buying fingerlings                       {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}5
+{txt}9999                                     {c |}          {res}1
+{txt}Aller Aqua is rich in protein that allow {c |}          {res}1
+{txt}Aller acqua is good but expensive        {c |}          {res}1
+{txt}Becareful changing feed                  {c |}          {res}1
+{txt}Bel acqua  feeds are good as staretr and {c |}           {res}
+{txt}Huawei is ok                             {c |}          {res}1
+{txt}I recommend Aller Aqua for its protein l {c |}          {res}1
+{txt}I will recommend Aller Aqua as the best  {c |}           {res}
+{txt}I would advice one gives the fishes good {c |}           {res}
+{txt}I would recommend on farm production of  {c |}           {res}
+{txt}Multi is good                            {c |}          {res}1
+{txt}Multifeed is good but expensive          {c |}          {res}1
+{txt}Nicolze is better                        {c |}          {res}1
+{txt}One must adopt one type of feed in cultu {c |}          {res}1
+{txt}Pira and multi feed are the best         {c |}          {res}1
+{txt}Pira was good                            {c |}           {res}
+{txt}Prime as a starter feed and Ranaan as gr {c |}          {res}1
+{txt}Ranaan because it close to my farm       {c |}           {res}
+{txt}Ranaan is better                         {c |}          {res}1
+{txt}Ranaan is cheap but Ziegler is good      {c |}          {res}1
+{txt}Rannan is better                         {c |}          {res}1
+{txt}Scritin is good but expensive            {c |}           {res}
+{txt}You should buy from the commercial feed  {c |}           {res}
+{txt}produce theur iwn feed                   {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}Aller Aqua is rich in protein that allow {c |}           {res}
+{txt}Aller acqua is good but expensive        {c |}           {res}
+{txt}Becareful changing feed                  {c |}           {res}
+{txt}Bel acqua  feeds are good as staretr and {c |}          {res}1
+{txt}Huawei is ok                             {c |}           {res}
+{txt}I recommend Aller Aqua for its protein l {c |}           {res}
+{txt}I will recommend Aller Aqua as the best  {c |}          {res}1
+{txt}I would advice one gives the fishes good {c |}          {res}1
+{txt}I would recommend on farm production of  {c |}          {res}1
+{txt}Multi is good                            {c |}           {res}
+{txt}Multifeed is good but expensive          {c |}           {res}
+{txt}Nicolze is better                        {c |}           {res}
+{txt}One must adopt one type of feed in cultu {c |}           {res}
+{txt}Pira and multi feed are the best         {c |}           {res}
+{txt}Pira was good                            {c |}          {res}1
+{txt}Prime as a starter feed and Ranaan as gr {c |}           {res}
+{txt}Ranaan because it close to my farm       {c |}          {res}1
+{txt}Ranaan is better                         {c |}           {res}
+{txt}Ranaan is cheap but Ziegler is good      {c |}           {res}
+{txt}Rannan is better                         {c |}           {res}
+{txt}Scritin is good but expensive            {c |}          {res}1
+{txt}You should buy from the commercial feed  {c |}          {res}1
+{txt}produce theur iwn feed                   {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}2
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+I would recommend the Aqua Cold as the b {c |}           {res}
+{txt}Not much improvement                     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+I would recommend the Aqua Cold as the b {c |}          {res}1
+{txt}Not much improvement                     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}19
+{txt}Availability of capital before investing {c |}          {res}1
+{txt}Capital Intensive                        {c |}          {res}1
+{txt}Enough money needed                      {c |}          {res}1
+{txt}Fish farming is capital intensive        {c |}          {res}1
+{txt}Fishing is capital intensive             {c |}          {res}1
+{txt}I advice people to give attention to the {c |}          {res}1
+{txt}I would advice anyone to give good atten {c |}          {res}1
+{txt}It have been helpful  ever since I chang {c |}           {res}
+{txt}It's been helpful  since                 {c |}          {res}1
+{txt}It's very good ever since I changed it   {c |}          {res}1
+{txt}Less stockingbis better                  {c |}           {res}
+{txt}Lower stocking allows for good growth    {c |}          {res}1
+{txt}Lower stocking density so we can feed th {c |}          {res}1
+{txt}One must be ready to provide enough feed {c |}          {res}1
+{txt}One must know the terrain of his water s {c |}           {res}
+{txt}Provide better spacing For fishes in the {c |}          {res}1
+{txt}Stock adequately                         {c |}          {res}1
+{txt}Stock based on the number you can feed w {c |}          {res}1
+{txt}Stock in relation to your financial capa {c |}          {res}1
+{txt}Stock when water is good                 {c |}          {res}1
+{txt}Stocking  A lot during the cold weather  {c |}          {res}1
+{txt}Stocking  small quantity is the best     {c |}          {res}1
+{txt}Stocking adequately                      {c |}          {res}1
+{txt}Stocking in smaller quantity they grow f {c |}          {res}1
+{txt}Stocking less is better because they gro {c |}          {res}1
+{txt}Stocking less is the best practice       {c |}          {res}1
+{txt}Stocking small                           {c |}           {res}
+{txt}Stocking smaller quantities they grow fa {c |}          {res}1
+{txt}Stocking smaller quantity                {c |}           {res}
+{txt}Stocking smaller quantity help the fish  {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}8
+{txt}Availability of capital before investing {c |}           {res}
+{txt}Capital Intensive                        {c |}           {res}
+{txt}Enough money needed                      {c |}           {res}
+{txt}Fish farming is capital intensive        {c |}           {res}
+{txt}Fishing is capital intensive             {c |}           {res}
+{txt}I advice people to give attention to the {c |}           {res}
+{txt}I would advice anyone to give good atten {c |}           {res}
+{txt}It have been helpful  ever since I chang {c |}          {res}1
+{txt}It's been helpful  since                 {c |}           {res}
+{txt}It's very good ever since I changed it   {c |}           {res}
+{txt}Less stockingbis better                  {c |}          {res}1
+{txt}Lower stocking allows for good growth    {c |}           {res}
+{txt}Lower stocking density so we can feed th {c |}           {res}
+{txt}One must be ready to provide enough feed {c |}           {res}
+{txt}One must know the terrain of his water s {c |}          {res}1
+{txt}Provide better spacing For fishes in the {c |}           {res}
+{txt}Stock adequately                         {c |}          {res}1
+{txt}Stock based on the number you can feed w {c |}           {res}
+{txt}Stock in relation to your financial capa {c |}           {res}
+{txt}Stock when water is good                 {c |}           {res}
+{txt}Stocking  A lot during the cold weather  {c |}           {res}
+{txt}Stocking  small quantity is the best     {c |}           {res}
+{txt}Stocking adequately                      {c |}          {res}1
+{txt}Stocking in smaller quantity they grow f {c |}           {res}
+{txt}Stocking less is better because they gro {c |}           {res}
+{txt}Stocking less is the best practice       {c |}           {res}
+{txt}Stocking small                           {c |}          {res}1
+{txt}Stocking smaller quantities they grow fa {c |}           {res}
+{txt}Stocking smaller quantity                {c |}          {res}1
+{txt}Stocking smaller quantity help the fish  {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}          {res}1
+{txt}It's good                                {c |}          {res}1
+{txt}It's have been good                      {c |}          {res}1
+{txt}One should always locate cages at places {c |}          {res}1
+{txt}Stocking rate should not be too high     {c |}          {res}1
+{txt}The depth of the water helps and it redu {c |}           {res}
+{txt}To prevent the possible contamination of {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}3
+{txt}9999                                     {c |}           {res}
+{txt}It's good                                {c |}           {res}
+{txt}It's have been good                      {c |}           {res}
+{txt}One should always locate cages at places {c |}           {res}
+{txt}Stocking rate should not be too high     {c |}           {res}
+{txt}The depth of the water helps and it redu {c |}          {res}1
+{txt}To prevent the possible contamination of {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}4
+{txt}I advice one should start with a small c {c |}          {res}1
+{txt}Using Both cage size                     {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}5
+{txt}I advice one should start with a small c {c |}           {res}
+{txt}Using Both cage size                     {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}5
+{txt}9999                                     {c |}          {res}1
+{txt}Boat is better                           {c |}          {res}1
+{txt}Buying from short distance hatchery is b {c |}          {res}1
+{txt}The quantity of Fingerlings placed in a  {c |}           {res}
+{txt}Vehicle is ok                            {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}4
+{txt}9999                                     {c |}           {res}
+{txt}Boat is better                           {c |}           {res}
+{txt}Buying from short distance hatchery is b {c |}           {res}
+{txt}The quantity of Fingerlings placed in a  {c |}          {res}1
+{txt}Vehicle is ok                            {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+1g is better                             {c |}          {res}1
+{txt}2g is better                             {c |}          {res}1
+{txt}999                                      {c |}          {res}4
+{txt}I would advice farmers purchase 1 gram F {c |}          {res}1
+{txt}I would advice one should buy Fingerling {c |}           {res}
+{txt}One is advised to purchase a lower gram  {c |}           {res}
+{txt}Smaller sizes survive better for longer  {c |}          {res}1
+{txt}The lower the grams, the higher the quan {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+1g is better                             {c |}           {res}
+{txt}2g is better                             {c |}          {res}1
+{txt}999                                      {c |}          {res}2
+{txt}I would advice farmers purchase 1 gram F {c |}           {res}
+{txt}I would advice one should buy Fingerling {c |}          {res}1
+{txt}One is advised to purchase a lower gram  {c |}          {res}1
+{txt}Smaller sizes survive better for longer  {c |}           {res}
+{txt}The lower the grams, the higher the quan {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}         {res}10
+{txt}Do not employ many people when there wou {c |}           {res}
+{txt}Employ experience and honest people      {c |}          {res}1
+{txt}Employ more skilled workers if the need  {c |}           {res}
+{txt}Employ people you trust and also who are {c |}           {res}
+{txt}None                                     {c |}          {res}1
+{txt}One should be able to get reliable and   {c |}          {res}1
+{txt}Should get committed persons and self mo {c |}           {res}
+{txt}The farm manager must be a truthful and  {c |}           {res}
+{txt}To Pay your labours well                 {c |}          {res}1
+{txt}To employ Good divers and a fast learner {c |}          {res}1
+{txt}no                                       {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}6
+{txt}Do not employ many people when there wou {c |}          {res}1
+{txt}Employ experience and honest people      {c |}           {res}
+{txt}Employ more skilled workers if the need  {c |}          {res}1
+{txt}Employ people you trust and also who are {c |}          {res}1
+{txt}None                                     {c |}           {res}
+{txt}One should be able to get reliable and   {c |}           {res}
+{txt}Should get committed persons and self mo {c |}          {res}1
+{txt}The farm manager must be a truthful and  {c |}          {res}1
+{txt}To Pay your labours well                 {c |}           {res}
+{txt}To employ Good divers and a fast learner {c |}           {res}
+{txt}no                                       {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. foreach var of varlist d6di d6dii d6diii d6div d6dv d6dvi d6dvii d6dviii d6dix d6dx d6dxi{c -(}
+{txt}  2{com}. table `var' if pond==1 & (region=="Eastern"|region=="Volta"), by (region) stubwidth(40) left
+{txt}  3{com}. {c )-}
+
+{txt}{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+I will recommend a farm starts with catf {c |}          {res}1
+{txt}The breeding increases                   {c |}           {res}
+{txt}i will recomend tilapia for a cage produ {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+I will recommend a farm starts with catf {c |}           {res}
+{txt}The breeding increases                   {c |}          {res}1
+{txt}i will recomend tilapia for a cage produ {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Ashiaman is good                         {c |}           {res}
+{txt}Change the place you buy fingerlings if  {c |}          {res}1
+{txt}No                                       {c |}          {res}1
+{txt}To get an expert to guide you in making  {c |}           {res}
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}           {res}
+{txt}Ashiaman is good                         {c |}          {res}1
+{txt}Change the place you buy fingerlings if  {c |}           {res}
+{txt}No                                       {c |}           {res}
+{txt}To get an expert to guide you in making  {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}          {res}1
+{txt}Farmers must learn tomproduce their own  {c |}           {res}
+{txt}Foreign feed is very expensive           {c |}          {res}1
+{txt}Providing ready made feed is better than {c |}          {res}1
+{txt}Raanan is much better                    {c |}          {res}1
+{txt}The feeds brings the fish out of the wat {c |}          {res}1
+{txt}To go for what you can afford            {c |}           {res}
+{txt}farmers should start with Ranna feed     {c |}          {res}1
+{txt}{hline 41}{c +}{hline 11}
+Volta                                    {c |}
+999                                      {c |}          {res}1
+{txt}Advice farmers to produce their own feed {c |}           {res}
+{txt}Farmers must learn tomproduce their own  {c |}          {res}1
+{txt}Foreign feed is very expensive           {c |}           {res}
+{txt}Providing ready made feed is better than {c |}           {res}
+{txt}Raanan is much better                    {c |}           {res}
+{txt}The feeds brings the fish out of the wat {c |}           {res}
+{txt}To go for what you can afford            {c |}          {res}1
+{txt}farmers should start with Ranna feed     {c |}           {res}
+{txt}{hline 41}{c BT}{hline 11}
+
+{hline 41}{c TT}{hline 11}
+region and Based on your experience and  {c |}
+changes you made, what can you recommend {c |}
+as best pr                               {c |}      Freq.
+{hline 41}{c +}{hline 11}
+Eastern                                  {c |}
+Changing the water regularly helps with  {c |}          {res}1
+{txt}It's very good                           {c |}          {res}1
+{txt}{hline 41}{c BT}{hline 11}
+{err}no observations
+{txt}{search r(2000), local:r(2000);}
+
+end of do-file
+
+{search r(2000), local:r(2000);}
+
+{com}. tab e39e
+
+ {txt}What is your {c |}
+perception on {c |}
+  the quality {c |}
+           of {c |}
+(${c -(}E36e_name{c )-} {c |}
+           )? {c |}      Freq.     Percent        Cum.
+{hline 14}{c +}{hline 35}
+    Very good {c |}{res}        211       52.88       52.88
+{txt}         Good {c |}{res}        174       43.61       96.49
+{txt}Somewhat good {c |}{res}         12        3.01       99.50
+{txt}     Not good {c |}{res}          2        0.50      100.00
+{txt}{hline 14}{c +}{hline 35}
+        Total {c |}{res}        399      100.00
+
+{com}. des e40e_i e41e_i
+
+              {txt}storage   display    value
+variable name   type    format     label      variable label
+{hline}
+{p 0 48}{res}{bind:e40e_i         }{txt}{bind: byte    }{bind:{txt}%13.0g    }{space 1}{bind:e40e_i   }{bind:* }{res}{res}What is your perception on the availability of (${c -(}E36e_i_name{c )-})?{p_end}
+{p 0 48}{bind:e41e_i         }{txt}{bind: byte    }{bind:{txt}%13.0g    }{space 1}{bind:e41e_i   }{bind:* }{res}{res}What is your perception of affordability of (${c -(}E36e_i_name{c )-})?{p_end}
+
+{com}. sum e40e_i e41e_i
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 6}e40e_i {c |}{res}        120    1.483333    .6078386          1          3
+{txt}{space 6}e41e_i {c |}{res}        120         1.7    .7514691          1          4
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab e36e e40e_i, row nofreq
+
+                   {txt}{c |}  What is your perception on the
+       First/major {c |}         availability of
+     grow-out feed {c |}        (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 19}{c +}{hline 33}{c +}{hline 10}
+            Raanan {c |}{res}     61.54      28.21      10.26 {txt}{c |}{res}    100.00 
+{txt}         Multifeed {c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}On farm production {c |}{res}     56.25      40.00       3.75 {txt}{c |}{res}    100.00 
+{txt}{hline 19}{c +}{hline 33}{c +}{hline 10}
+             Total {c |}{res}     57.50      36.67       5.83 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab e36e e40e_i
+
+                   {txt}{c |}  What is your perception on the
+       First/major {c |}         availability of
+     grow-out feed {c |}        (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 19}{c +}{hline 33}{c +}{hline 10}
+            Raanan {c |}{res}        24         11          4 {txt}{c |}{res}        39 
+{txt}         Multifeed {c |}{res}         0          1          0 {txt}{c |}{res}         1 
+{txt}On farm production {c |}{res}        45         32          3 {txt}{c |}{res}        80 
+{txt}{hline 19}{c +}{hline 33}{c +}{hline 10}
+             Total {c |}{res}        69         44          7 {txt}{c |}{res}       120 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab region e40e_i
+
+            {txt}{c |}  What is your perception on the
+            {c |}         availability of
+            {c |}        (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}        24         18          0 {txt}{c |}{res}        42 
+{txt}Brong-Ahafo {c |}{res}        39         21          7 {txt}{c |}{res}        67 
+{txt}    Eastern {c |}{res}         2          3          0 {txt}{c |}{res}         5 
+{txt}      Volta {c |}{res}         4          2          0 {txt}{c |}{res}         6 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}        69         44          7 {txt}{c |}{res}       120 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab region e40e_i
+
+            {txt}{c |}  What is your perception on the
+            {c |}         availability of
+            {c |}        (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}        24         18          0 {txt}{c |}{res}        42 
+{txt}Brong-Ahafo {c |}{res}        39         21          7 {txt}{c |}{res}        67 
+{txt}    Eastern {c |}{res}         2          3          0 {txt}{c |}{res}         5 
+{txt}      Volta {c |}{res}         4          2          0 {txt}{c |}{res}         6 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}        69         44          7 {txt}{c |}{res}       120 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab region e40e_i, row nofreq
+
+            {txt}{c |}  What is your perception on the
+            {c |}         availability of
+            {c |}        (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     57.14      42.86       0.00 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     58.21      31.34      10.45 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     40.00      60.00       0.00 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     66.67      33.33       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     57.50      36.67       5.83 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab region e40e_i
+
+            {txt}{c |}  What is your perception on the
+            {c |}         availability of
+            {c |}        (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}        24         18          0 {txt}{c |}{res}        42 
+{txt}Brong-Ahafo {c |}{res}        39         21          7 {txt}{c |}{res}        67 
+{txt}    Eastern {c |}{res}         2          3          0 {txt}{c |}{res}         5 
+{txt}      Volta {c |}{res}         4          2          0 {txt}{c |}{res}         6 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}        69         44          7 {txt}{c |}{res}       120 
+
+{txt}
+{com}. tab region e40e_i, row nofreq
+
+            {txt}{c |}  What is your perception on the
+            {c |}         availability of
+            {c |}        (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 12}{c +}{hline 33}{c +}{hline 10}
+    Ashanti {c |}{res}     57.14      42.86       0.00 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     58.21      31.34      10.45 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     40.00      60.00       0.00 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     66.67      33.33       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 33}{c +}{hline 10}
+      Total {c |}{res}     57.50      36.67       5.83 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab e36e e40e_i
+
+                   {txt}{c |}  What is your perception on the
+       First/major {c |}         availability of
+     grow-out feed {c |}        (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 19}{c +}{hline 33}{c +}{hline 10}
+            Raanan {c |}{res}        24         11          4 {txt}{c |}{res}        39 
+{txt}         Multifeed {c |}{res}         0          1          0 {txt}{c |}{res}         1 
+{txt}On farm production {c |}{res}        45         32          3 {txt}{c |}{res}        80 
+{txt}{hline 19}{c +}{hline 33}{c +}{hline 10}
+             Total {c |}{res}        69         44          7 {txt}{c |}{res}       120 
+
+{txt}
+{com}. tab e36e e40e_i, row nofreq
+
+                   {txt}{c |}  What is your perception on the
+       First/major {c |}         availability of
+     grow-out feed {c |}        (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat  {c |}     Total
+{hline 19}{c +}{hline 33}{c +}{hline 10}
+            Raanan {c |}{res}     61.54      28.21      10.26 {txt}{c |}{res}    100.00 
+{txt}         Multifeed {c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}On farm production {c |}{res}     56.25      40.00       3.75 {txt}{c |}{res}    100.00 
+{txt}{hline 19}{c +}{hline 33}{c +}{hline 10}
+             Total {c |}{res}     57.50      36.67       5.83 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab region e41e_i
+
+            {txt}{c |} What is your perception of affordability of
+            {c |}              (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat    Not good {c |}     Total
+{hline 12}{c +}{hline 44}{c +}{hline 10}
+    Ashanti {c |}{res}        24         18          0          0 {txt}{c |}{res}        42 
+{txt}Brong-Ahafo {c |}{res}        26         26         12          3 {txt}{c |}{res}        67 
+{txt}    Eastern {c |}{res}         1          4          0          0 {txt}{c |}{res}         5 
+{txt}      Volta {c |}{res}         3          3          0          0 {txt}{c |}{res}         6 
+{txt}{hline 12}{c +}{hline 44}{c +}{hline 10}
+      Total {c |}{res}        54         51         12          3 {txt}{c |}{res}       120 
+
+{txt}
+{com}. tab region e41e_i, row nofreq
+
+            {txt}{c |} What is your perception of affordability of
+            {c |}              (${c -(}E36e_i_name{c )-})?
+     region {c |} Very good       Good  Somewhat    Not good {c |}     Total
+{hline 12}{c +}{hline 44}{c +}{hline 10}
+    Ashanti {c |}{res}     57.14      42.86       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}Brong-Ahafo {c |}{res}     38.81      38.81      17.91       4.48 {txt}{c |}{res}    100.00 
+{txt}    Eastern {c |}{res}     20.00      80.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}      Volta {c |}{res}     50.00      50.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 12}{c +}{hline 44}{c +}{hline 10}
+      Total {c |}{res}     45.00      42.50      10.00       2.50 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/69/dqw9361938g2gdrbgkv92jlm0000gn/T//SD00288.000000"
+{txt}
+{com}. tab e36e e41e_i
+
+       {txt}First/major {c |} What is your perception of affordability of
+     grow-out feed {c |}              (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat    Not good {c |}     Total
+{hline 19}{c +}{hline 44}{c +}{hline 10}
+            Raanan {c |}{res}        19         12          7          1 {txt}{c |}{res}        39 
+{txt}         Multifeed {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}On farm production {c |}{res}        35         38          5          2 {txt}{c |}{res}        80 
+{txt}{hline 19}{c +}{hline 44}{c +}{hline 10}
+             Total {c |}{res}        54         51         12          3 {txt}{c |}{res}       120 
+
+{txt}
+{com}. tab e36e e41e_i, row nofreq
+
+       {txt}First/major {c |} What is your perception of affordability of
+     grow-out feed {c |}              (${c -(}E36e_i_name{c )-})?
+      type/source? {c |} Very good       Good  Somewhat    Not good {c |}     Total
+{hline 19}{c +}{hline 44}{c +}{hline 10}
+            Raanan {c |}{res}     48.72      30.77      17.95       2.56 {txt}{c |}{res}    100.00 
+{txt}         Multifeed {c |}{res}      0.00     100.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}On farm production {c |}{res}     43.75      47.50       6.25       2.50 {txt}{c |}{res}    100.00 
+{txt}{hline 19}{c +}{hline 44}{c +}{hline 10}
+             Total {c |}{res}     45.00      42.50      10.00       2.50 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+{txt}end of do-file
+
 {com}. 
